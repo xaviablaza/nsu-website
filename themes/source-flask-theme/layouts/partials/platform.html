@@ -1,16 +1,11 @@
-{{ if isset .Site.Params "features" }}
-{{ if .Site.Params.features.enable }}
-{{ if gt (len .Site.Data.features) 0 }}
 <section class="bar background-white" id="our-toolkit">
     <div class="features container">
-        <span class="section-title" id="toolkit"><{{ .Site.Params.features.title }}></span>
-        <h2 class="info-block">We make sure your products and services are <span>simple</span>, <span>easy-to-use</span> and <span class="semibold">enjoyable</span> for your customers.</h2>
-
+        <span class="section-title" id="toolkit">Platform</span>
         <div id="what-we-do">
             <div class="row">
                 <div>
-            {{ range $index, $element := sort .Site.Data.features "weight" }}
-                    <div class="col-lg-4  col-md-6 col-sm-6">
+            {{ range $index, $element := sort .Site.Data.platform "weight" }}
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="box-simple">
                             <div class="icon">
                                 <img src="{{ .icon }}">
@@ -23,9 +18,6 @@
                 </div>
             </div>
         </div>
-        <span class="section-footer"></{{ .Site.Params.features.title }}></span>
     </div>
 </section>
-{{ end }}
-{{ end }}
-{{ end }}
+
