@@ -1,82 +1,9 @@
 //@import "~animate.css";
-@import "~bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~bootstrap/scss/bootstrap.scss";
 @import "variable";
 
 //Base
 @import "base";
 @import "navbar";
 @import "footer";
-@import "blog";
-@import "box";
-@import "button";
 @import "heading";
-@import "blog_post";
-
-// Sections
-@import "sections/section";
-@import "sections/info_block";
-@import "sections/testimonals";
-@import "sections/top_title_card";
-@import "sections/features";
-@import "sections/projects";
-@import "sections/bottom_title_card";
-@import "sections/portfolio";
-
-
-//Override
-/*.container
-{width:100%;}*/
-.section
-{
-	 padding: 30px 10%;  
-	   @media (max-width: 575px) 
-		{
-		  padding: 30px 5%  !important;
-		  margin-bottom: 0 !important;
-		}
-
-
-}
-.btn-template-primary
-{
-	padding:10px 30px; 
-	font-weight:300 !important;
-	font-size: 16px;
-	letter-spacing: 5px !important;
-}
-.btn-template-primary:hover
-{
-	border-color: #eb747c !important;
-	background-color: #eb747c !important;
-}
-.navbar ul.nav > li > a:hover {
-    border-color:transparent;
-    background-color: transparent;
-}
-.navbar .btn
-{
-	color:white;
-	background-color: transparent !important;
-	border-color:#FF979E !important;
-	border-width: 2px !important;
-	padding: 10px 25px !important;
-	margin-top: 15px;
-	font-size: 14px;
-	letter-spacing: 5px;
-	font-family: 'Lato';
-}
-.navbar .btn:hover
-{
-	color:white !important;
-	background-color: #FF979E !important;
-	border-color:#FF979E !important;
-	
-}
-.navbar-brand > img
-{
-	@media (max-width: 991px) {
-	    height: 80%;
-    margin-top: 5px;
-	}
-}

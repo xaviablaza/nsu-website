@@ -1,31 +1,8 @@
 import $ from 'jquery'
-import TweenMax from 'gsap/TweenMax'
-import TimelineMax from 'gsap/TimelineMax'
+// import TweenMax from 'gsap/TweenMax'
+// import TimelineMax from 'gsap/TimelineMax'
 
 $(document).ready(() => {
-  TweenMax.set('svg', {
-    visibility: 'visible'
-  })
-
-  let tl = new TimelineMax()
-  tl.staggerTo('#bubbleGroup circle', 3, {
-    attr: {
-      cy: 200
-    },
-    ease: TweenMax.Power2.easeIn,
-    repeat: -1
-  }, 0.6)
-
-  let animatedFooter = $('#bottom-title-animate-message')
-
-  let messageStack = ['|amazing website?|', '|intuitive user experience?|', '|affordable pricing?|']
-  let charIndex = 0
-  let lineIndex = 0
-
-  let message = messageStack[0]
-
-  let state = 'deleting'
-
   /* Smooth scrolling */
   // Select all links with hashes
   $('a[href*="#"]')
@@ -62,56 +39,4 @@ $(document).ready(() => {
         }
       }
     })
-
-  function writingUpdate () {
-    let line = messageStack[lineIndex]
-    switch (state) {
-      case 'writing':
-        message += line[charIndex]
-        charIndex++
-        if (charIndex >= line.length) {
-          state = 'deleting'
-          charIndex = 0
-          setTimeout(writingUpdate, 10000)
-        } else {
-          setTimeout(writingUpdate, 100)
-        }
-        break
-      case 'deleting':
-        message = message.substr(0, message.length - 1)
-        if (message.length === 0) {
-          lineIndex++
-          if (lineIndex >= messageStack.length) {
-            lineIndex = 0
-          }
-          state = 'writing'
-          setTimeout(writingUpdate, 2000)
-        } else {
-          setTimeout(writingUpdate, 100)
-        }
-        break
-    }
-
-    let output = ''
-    let highlight = false
-    for (let i = 0; i < message.length; i++) {
-      if (message[i] === '|') {
-        if (highlight === false) {
-          highlight = true
-          output += '<span>'
-        } else {
-          output += '</span>'
-        }
-      } else {
-        output += message[i]
-      }
-    }
-    if (highlight === true) {
-      output += '</span>'
-    }
-
-    animatedFooter.html(output + ' ')
-  }
-  setTimeout(writingUpdate, 1000)
 })
-
