@@ -1,0 +1,34 @@
+{{ if isset .Site.Params "portfolio" }}
+{{ if .Site.Params.portfolio.enable }}
+{{ if gt (len .Site.Data.portfolio) 0 }}
+<section class="portfolio" id="previous-project">
+    <div class="features container">
+        <span class="section-title" id="previousprojects"><{{ .Site.Params.portfolio.title }}></span>
+        <div class="row portfolio-list">
+            <div class="col-md-12">
+                <div class="projects same-height-row">
+                    {{ $projects := .Paginate (where .Data.Pages "Type" "projects") }}
+                    {{ range first 2 $projects.Pages }}
+                        <div class="col-md-6">
+                            {{ if .Params.banner }}
+                                <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="project-pic img-responsive" alt="">
+                            {{ else }}
+                                <img src="{{ .Site.BaseURL}}img/placeholder.png" class="project-pic img-responsive" alt="">
+                            {{ end }}
+                            <div class="project-desc">
+                                <p class="project-title">{{ .Title }}</p>
+                                <p class="project-blurb">{{.Params.summary}}</p>
+                                <a href="{{ .Permalink }}" class="see-more-link">SEE MORE</a>
+                            </div>
+                        </div>
+                    {{end}}
+                </div>
+            </div>
+        </div>
+        <span class="section-footer"></{{ .Site.Params.portfolio.title }}></span>
+    </div>
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}
+{{ end }}

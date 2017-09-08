@@ -1,0 +1,136 @@
+.top-title-card {
+  background: linear-gradient(65.29deg, #F48AA4 18.08%, #AC65A9 54.44%, #A562A8 60.5%, #7552A1 104.65%);
+  padding: 80px 0px 20px 0px;
+  @media (max-width: 320px) {
+    padding: 40px 0px 20px 0px;
+  }
+
+  .st0 {
+    fill: #F97D7D;
+  }
+  .st1 {
+    fill: #FFFFFF;
+  }
+  .st2 {
+    clip-path: url(#clipped_1_);
+  }
+  .st3 {
+    font-family: 'Montserrat';
+  }
+  .st4 {
+    font-size: 53.3107px;
+  }
+
+  .title-imge {
+    max-width: 100%;
+    width: 40vh;
+  }
+
+  h3, h4, h2, h1, h5, h6 {
+    color: white;
+    padding: 0px 0px;
+  }
+
+  .dropshadow {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  .shadow {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+  }
+
+  .sourceflask-text {
+    font-family: 'Fira Sans';
+    font-size: 64px;
+    @media (max-width: 991px) {
+      font-size: 48px;
+    }
+
+    margin: 0;
+  }
+
+  .sourceflask-subtitle {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    @media (max-width: 991px) {
+      font-size: 20px;
+    }
+    @media (max-width: 575px) {
+      font-size: 16px
+    }
+    color: white;
+  }
+
+  .sourceflask-question {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 30px;
+    @media (max-width: 991px) {
+      margin-top: 0;
+    }
+  }
+
+  a:link,
+  a:visited {
+    font-weight: 400;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 5px;
+    padding: 10px 50px 10px 50px;
+    background-color: #734BCE;
+    color: #fff;
+    border: 2px solid #734BCE;
+    border-radius: 30px;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:active {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    background-color: #5e35bb;
+    border-color: #5e35bb;
+  }
+
+  .curious {
+    width: 100%;
+    position: relative;
+    top: 40px;
+    @media (min-width: 991px) {
+      right: 22.5%;
+    }
+    @media (max-width: 991px) {
+      top: 45px;
+    }
+    @media (max-width: 575px) {
+      top: 40px;
+    }
+
+    i {
+      font-size: 64px;
+      color: #734bce;
+    }
+
+    .curious-text {
+      font-family: 'Lato', Helvetica, Arial, sans-serif;
+      font-size: 2.3rem;
+      font-weight: 700;
+      font-style: italic;
+      position: relative;
+      display: inline-block;
+      top: 13px;
+      color: #95989a;
+      padding: 0;
+      margin: 0;
+      @media (max-width: 575px) {
+        font-size: 2rem;
+      }
+      @media (max-width: 320px) {
+        font-size: 2.2rem;
+      }
+    }
+  }
+}
