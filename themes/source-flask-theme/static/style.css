@@ -8343,3 +8343,74 @@ section.full-height,
 section > div {
   height: 100vh;
 }
+
+@media (min-width: 991px) {
+  .features {
+    margin-top: 40px;
+  }
+
+  .features #what-we-do {
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .features #what-we-do > div:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 575px) {
+  .features {
+    margin-top: 20px;
+  }
+}
+
+.features h1,
+.features h2,
+.features h3,
+.features h4,
+.features h5,
+.features h6 {
+  color: #95989A;
+}
+
+.features .info-block {
+  font-size: 4rem;
+  padding-left: 30px;
+  margin: 5rem 0 5rem 2rem;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #95989A;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.55;
+  color: #95989A;
+}
+
+@media (max-width: 991px) {
+  .features .info-block {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .features .info-block {
+    font-size: 2.5rem;
+  }
+}
+
+.features .info-block span {
+  font-weight: 400;
+  color: #FF979E;
+}
+
+.features .info-block .semibold {
+  font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .features .box-simple > p {
+    font-size: 2rem;
+  }
+}
