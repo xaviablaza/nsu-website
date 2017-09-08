@@ -1,13 +1,26 @@
 {{ if isset .Site.Params "top_title_card" }}
 {{ if .Site.Params.top_title_card.enable }}
-<section class="full-height row">
-      <div class="col">
-      </div>
-      <div class="col">
-          <div>
+<section  id="title-card">
+    <div class="row">
+        <div class="col-md-5 full-height">
+            <div class="call-to-action-block">
+                Vote for
+
+                Tyler
+                Brooks
+
+                student org senator
+
+                voting starts in
+                130:21:01
+            </div>
+        </div>
+      <div class="col-md-7 full-height">
+          <div class="cover-container">
             <img class="embed-responsive" src="/img/top_1.jpg">
           </div>
       </div>
+    </div>
 </section>
 {{ end }}
 {{ end }}

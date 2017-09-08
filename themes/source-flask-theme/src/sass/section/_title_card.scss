@@ -1,0 +1,31 @@
+#title-card{;
+  .cover-container{
+    overflow: hidden;
+    height: 100%;
+    img{
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  .call-to-action-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    &>div{
+
+    }
+
+    &:before{
+      content: ' ';
+      align-self: flex-start;
+    }
+    &:after{
+      content: ' ';
+      align-self: flex-end;
+    }
+  }
+}
+

@@ -8339,7 +8339,33 @@ html {
   font-size: 62.5%;
 }
 
-section.full-height,
-section > div {
+.full-height {
   height: 100vh;
+}
+
+#title-card .cover-container {
+  overflow: hidden;
+  height: 100%;
+}
+
+#title-card .cover-container img {
+  height: 100%;
+  width: auto;
+}
+
+#title-card .call-to-action-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#title-card .call-to-action-block:before {
+  content: ' ';
+  align-self: flex-start;
+}
+
+#title-card .call-to-action-block:after {
+  content: ' ';
+  align-self: flex-end;
 }
