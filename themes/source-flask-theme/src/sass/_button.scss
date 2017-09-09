@@ -1,11 +1,19 @@
 .cf-btn-primary {
+  @include font-lato;
+  color: #fff;
   padding: .10rem 6rem;
   border-style: solid;
-  border-color: black;
+  border-color: $btn-light;
+  background-color: $btn-light;
   border-radius: 40px;
-  font-size: 3rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 5px;
+  transition: all 0.2s ease-out;
   &:hover{
-    background: $gray-700;
+    background-color: $btn-dark;
+    border-color: $btn-dark;
   }
   .voting-flag{
     font-size: 5rem;

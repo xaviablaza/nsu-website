@@ -66,9 +66,9 @@
     font-size: 16px;
     letter-spacing: 5px;
     padding: 10px 50px 10px 50px;
-    background-color: #317dce;
+    background-color: $btn-light;
     color: #fff;
-    border: 2px solid #317dce;
+    border: 2px solid $btn-light;
     border-radius: 30px;
     transition: all 0.2s ease-out;
     text-decoration: none;
@@ -76,17 +76,14 @@
 
   a:hover,
   a:active {
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
-    background-color: #155599;
-    border-color: #155599;
+    @include font-lato;
+    background-color: $btn-dark;
+    border-color: $btn-dark;
   }
 
   #clock {
     margin-bottom: 20px;
   }
 
-  .vote-btn {
-    display: none;
-  }
 }
 

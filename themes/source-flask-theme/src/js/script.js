@@ -41,7 +41,7 @@ $(document).ready(() => {
     })
 
   // Set the date we're counting down to
-  $('.vote-btn').hide()
+  // $('.vote-btn').hide()
   var voteStart = new Date('Sep 18, 2017 00:00:00').getTime()
   var voteEnd = new Date('Sep 20, 2017 17:00:00').getTime()
   // Update the count down every 1 second
@@ -55,12 +55,15 @@ $(document).ready(() => {
     if (voteStart - now > 0) {
       distance = voteStart - now
       document.getElementById('vote-title').innerHTML = 'voting starts in'
+      document.getElementById('voting-flag').innerHTML = 'voting starts in'
     } else if (voteEnd - now > 0) {
       distance = voteEnd - now
       document.getElementById('vote-title').innerHTML = 'voting ends in'
+      document.getElementById('voting-flag').innerHTML = 'voting starts in'
       $('.vote-btn').show()
     } else {
       document.getElementById('vote-title').innerHTML = 'voting has ended!'
+      document.getElementById('voting-flag').innerHTML = 'voting starts in'
     }
 
     // Time calculations for days, hours, minutes and seconds
@@ -71,6 +74,7 @@ $(document).ready(() => {
 
     // Display the result in the element with id="demo"
     document.getElementById('clock').innerHTML = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's '
+    document.getElementById('clock1').innerHTML = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's '
 
     // If the count down is finished, write some text 
     if (distance < 0) {

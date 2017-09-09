@@ -1,4 +1,48 @@
 #call-to-action{
+  @include font-lato;
+  font-size: 3rem;
+  margin: 0 auto;
+  position: relative;
+
+  .voting-starts{
+      padding-top: 4rem;
+    }
+
+  .vote-for{
+    line-height: 3rem;
+    font-size: 6rem;
+    padding-bottom: 2rem;
+    &>span{
+      font-weight: bolder;
+    }
+  }
+
+  .fixcolor {
+    color: #fff;
+  }
+
+  a:link,
+  a:visited {
+    @include font-lato;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 5px;
+    padding: 10px 50px 10px 50px;
+    background-color: $btn-light;
+    color: #fff;
+    border: 2px solid $btn-light;
+    border-radius: 30px;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:active {
+    @include font-lato;
+    background-color: $btn-dark;
+    border-color: $btn-dark;
+  }
+  
   .voting-flag{
     font-size: 5rem;
     letter-spacing: .5rem;

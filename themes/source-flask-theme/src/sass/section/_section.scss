@@ -1,6 +1,6 @@
 
-section{
-  h1.section-title{
+section {
+  h1.section-title {
     color: $secondary-color;
     font-family: "Lato", Helvetica, Arial, sans-serif;
 
@@ -11,7 +11,15 @@ section{
     font-weight: 400;
   }
 
-  &.background-gray{
+  &.background-gray {
     background: #f3f3f3;
+  }
+
+  .vote-btn {
+    display: none;
+  }
+
+  #clock1 {
+    margin-bottom: 20px;
   }
 }
