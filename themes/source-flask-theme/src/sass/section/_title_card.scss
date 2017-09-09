@@ -1,14 +1,45 @@
 #title-card{;
   .cover-container{
     overflow: hidden;
-
+    height: 100vh;
     img{
-      max-height: 100vh;
-      margin-right: -500px;
+      height: 100%;
+      right: -45vh;
+      float: right;
+      position: relative;
     }
   }
 
   .call-to-action-block{
+    @include font-lato;
+    font-size: 3rem;
+    margin: 0 auto;
+    position: relative;
+    left: -2rem;
+    .fresh-senator{
+      font-size: 7rem;
+      letter-spacing: 2rem;
+      font-weight: 100;
+      line-height: 9rem;
+    }
+
+    .fresh-senator-subtitle{
+      font-weight: 100;
+      font-size: 3rem;
+
+    }
+    .voting-starts{
+      padding-top: 4rem;
+    }
+
+    .vote-for{
+      line-height: 3rem;
+      font-size: 6rem;
+      padding-bottom: 2rem;
+      &>span{
+        font-weight: bolder;
+      }
+    }
 
   }
 }
