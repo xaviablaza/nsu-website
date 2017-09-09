@@ -61,5 +61,6 @@
     "popper.js": "^1.12.5",
     "tether": "^1.4.0",
     "waypoints": "^4.0.1"
-  }
+  },
+  "version": "1.0.1"
 }
