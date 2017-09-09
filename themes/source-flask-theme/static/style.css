@@ -8355,6 +8355,21 @@ html {
   position: relative;
 }
 
+#title-card .call-to-action-block {
+  font-size: 3rem;
+  margin: 0 auto;
+  position: relative;
+  left: -2rem;
+}
+
+#title-card .call-to-action-block .vote-for {
+  line-height: 3rem;
+}
+
+#title-card .call-to-action-block .vote-for > span {
+  font-weight: bolder;
+}
+
 @media (min-width: 991px) {
   .features {
     margin-top: 40px;

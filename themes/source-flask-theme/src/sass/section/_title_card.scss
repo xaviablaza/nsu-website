@@ -11,6 +11,16 @@
   }
 
   .call-to-action-block{
+    font-size: 3rem;
+    margin: 0 auto;
+    position: relative;
+    left: -2rem;
+    .vote-for{
+      line-height: 3rem;
+      &>span{
+        font-weight: bolder;
+      }
+    }
 
   }
 }
