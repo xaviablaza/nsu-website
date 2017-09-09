@@ -9803,6 +9803,12 @@ address {
   background: #f9f9f9;
 }
 
+@media (min-width: 768px) {
+  #title-card {
+    padding-bottom: 0;
+  }
+}
+
 #title-card .cover-container {
   overflow: hidden;
   margin-bottom: 5rem;
