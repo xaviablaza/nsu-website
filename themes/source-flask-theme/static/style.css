@@ -8496,6 +8496,10 @@ address {
   font-weight: bolder;
 }
 
+.features {
+  /* Icon Animation and Text Formatting */
+}
+
 @media (min-width: 991px) {
   .features {
     margin-top: 40px;
@@ -8561,8 +8565,58 @@ address {
   font-weight: 600;
 }
 
+.features .box-simple > p {
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #95989A;
+  line-height: 1.8;
+}
+
 @media (max-width: 991px) {
   .features .box-simple > p {
     font-size: 2rem;
   }
+}
+
+.features .box-simple {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  .features .box-simple {
+    text-align: center;
+  }
+}
+
+.features .box-simple .icon {
+  color: #38a7bb;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.features .box-simple h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #95989A;
+}
+
+.features .icon {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  color: #fff;
+  line-height: 80px;
+  border-radius: 40px;
+  border: solid 1px #fff;
+  font-size: 20px;
+}
+
+.features .box-simple:hover .icon {
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
