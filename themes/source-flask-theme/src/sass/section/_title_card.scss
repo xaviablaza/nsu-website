@@ -1,13 +1,21 @@
-#title-card{;
+#title-card{
+  margin-bottom: 5rem;
+  background: #f9f9f9;
   .cover-container{
     overflow: hidden;
+    img{
+      width: 100%;
+    }
+
+    margin-bottom: 5rem;
     @include media-breakpoint-up(md) {
       height: 100vh;
+      margin-bottom: 0;
       img{
-
         height: 100%;
-        right: -45vh;
-        float: right;
+        float: left;
+        width: auto;
+        left: -35vh;
         position: relative;
       }
     }
@@ -20,7 +28,6 @@
     font-size: 3rem;
     margin: 0 auto;
     position: relative;
-    left: -2rem;
     .fresh-senator{
       font-size: 7rem;
       letter-spacing: 2rem;

@@ -9797,20 +9797,32 @@ address {
   line-height: 1.42857143;
 }
 
+#title-card {
+  margin-bottom: 5rem;
+  background: #f9f9f9;
+}
+
 #title-card .cover-container {
   overflow: hidden;
+  margin-bottom: 5rem;
   height: 50vh;
+}
+
+#title-card .cover-container img {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
   #title-card .cover-container {
     height: 100vh;
+    margin-bottom: 0;
   }
 
   #title-card .cover-container img {
     height: 100%;
-    right: -45vh;
-    float: right;
+    float: left;
+    width: auto;
+    left: -35vh;
     position: relative;
   }
 }
@@ -9820,7 +9832,6 @@ address {
   font-size: 3rem;
   margin: 0 auto;
   position: relative;
-  left: -2rem;
 }
 
 #title-card .call-to-action-block .fresh-senator {
@@ -9847,6 +9858,29 @@ address {
 
 #title-card .call-to-action-block .vote-for > span {
   font-weight: bolder;
+}
+
+section h1.section-title {
+  color: #403d33;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  letter-spacing: 1.5rem;
+  font-size: 4.2rem;
+  font-weight: 300;
+  padding: 2rem 0;
+}
+
+#testimonials .testimonial {
+  padding-top: 2rem;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: #403d33;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  text-align: center;
+}
+
+#testimonials .testimonial > .sub-title {
+  color: #8e9092;
+  padding-top: 1rem;
 }
 
 .features {

@@ -1,0 +1,15 @@
+#testimonials{
+  .testimonial{
+    padding-top: 2rem;
+    @include font-lato;
+    color: $secondary-color;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+
+    text-align: center;
+    &>.sub-title{
+      color: $subtitle-color;
+      padding-top: 1rem;
+    }
+  }
+}
