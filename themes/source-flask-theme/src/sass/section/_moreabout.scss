@@ -1,0 +1,30 @@
+.moreabout {
+	@media (min-width: 991px) {
+		margin-top: 40px;
+		#about-me {
+			margin-top: 60px;
+
+			.tyler-pic {
+				width: 100%;
+			}
+		}
+	}
+	@media (min-width: 575px) {
+		margin-top: 20px;
+	}
+
+	.tagline {
+		font-size: 2.5rem;
+		line-height: 2.14;
+		margin-bottom: 20px;
+	}
+	
+	.accolade {
+		padding-left: 10px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 1.9rem;
+		border-left: 1px solid $text-light;
+	}
+}
+
