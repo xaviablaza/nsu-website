@@ -9849,6 +9849,46 @@ address {
   font-weight: bolder;
 }
 
+section .section-heading {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  font-weight: 400;
+}
+
+@media (min-width: 991px) {
+  .moreabout {
+    margin-top: 40px;
+  }
+
+  .moreabout #about-me {
+    margin-top: 60px;
+  }
+
+  .moreabout #about-me .tyler-pic {
+    width: 100%;
+  }
+}
+
+@media (min-width: 575px) {
+  .moreabout {
+    margin-top: 20px;
+  }
+}
+
+.moreabout .tagline {
+  font-size: 2.5rem;
+  line-height: 2.14;
+}
+
+.moreabout .accolade {
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1.9rem;
+  border-left: 1px solid #95989a;
+}
+
 .features {
   /* Icon Animation and Text Formatting */
 }
@@ -9860,12 +9900,6 @@ address {
 
   .features #what-we-do {
     margin-top: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .features #what-we-do > div:not(:last-child) {
-    margin-bottom: 60px;
   }
 }
 
@@ -9873,15 +9907,6 @@ address {
   .features {
     margin-top: 20px;
   }
-}
-
-.features h1,
-.features h2,
-.features h3,
-.features h4,
-.features h5,
-.features h6 {
-  color: #95989A;
 }
 
 .features .info-block {
@@ -9920,9 +9945,9 @@ address {
 
 .features .box-simple > p {
   font-weight: 400;
-  font-size: 1.7rem;
-  color: #95989A;
-  line-height: 1.8;
+  font-size: 1.8rem;
+  color: #1b1c16;
+  line-height: 2.0;
 }
 
 @media (max-width: 991px) {
@@ -9950,10 +9975,12 @@ address {
 
 .features .box-simple h3 {
   margin-top: 2.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   font-weight: 700;
-  font-size: 3rem;
-  color: #95989A;
+  font-size: 2rem;
+  color: #1b1c16;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }
 
 .features .icon {
