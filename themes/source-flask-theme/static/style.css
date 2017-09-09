@@ -8345,11 +8345,14 @@ html {
 
 #title-card .cover-container {
   overflow: hidden;
+  height: 100vh;
 }
 
 #title-card .cover-container img {
-  max-height: 100vh;
-  margin-right: -500px;
+  height: 100%;
+  right: -45vh;
+  float: right;
+  position: relative;
 }
 
 @media (min-width: 991px) {
