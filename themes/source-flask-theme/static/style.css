@@ -9797,6 +9797,25 @@ address {
   line-height: 1.42857143;
 }
 
+.cf-btn-primary {
+  padding: .10rem 6rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: 40px;
+  font-size: 3rem;
+}
+
+.cf-btn-primary:hover {
+  background: #495057;
+}
+
+.cf-btn-primary .voting-flag {
+  font-size: 5rem;
+  font-weight: 200;
+  letter-spacing: .5rem;
+  padding: 2rem 0;
+}
+
 #title-card {
   padding-bottom: 3rem;
   margin-bottom: 6rem;
@@ -9877,6 +9896,10 @@ section h1.section-title {
   font-weight: 400;
 }
 
+section.background-gray {
+  background: #f3f3f3;
+}
+
 #testimonials .testimonial {
   padding-top: 2rem;
   font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -9889,6 +9912,19 @@ section h1.section-title {
 #testimonials .testimonial > .sub-title {
   color: #8e9092;
   padding-top: 1rem;
+}
+
+#call-to-action .voting-flag {
+  font-size: 5rem;
+  letter-spacing: .5rem;
+  font-weight: 200;
+  padding: 2rem 0;
+}
+
+#call-to-action .question {
+  padding: 2rem;
+  font-size: 1.9rem;
+  font-weight: 500;
 }
 
 @media (min-width: 991px) {
