@@ -1,5 +1,6 @@
 
 section{
+  padding: 0 .4rem;
   h1.section-title{
     color: $secondary-color;
     font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -11,6 +12,9 @@ section{
     font-weight: 400;
   }
 
+  .no-gutters{
+    padding: 0!important;
+  }
   &.background-gray{
     background: #f3f3f3;
   }
