@@ -1,9 +1,8 @@
 <section class="bar background-white" id="our-toolkit">
     <div class="features container">
-        <span class="section-title" id="toolkit">Platform</span>
+        <h1>Platform</h1>
         <div id="what-we-do">
             <div class="row">
-                <div>
             {{ range $index, $element := sort .Site.Data.platform "weight" }}
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="box-simple">
@@ -15,7 +14,6 @@
                         </div>
                     </div>
             {{ end }}
-                </div>
             </div>
         </div>
     </div>
