@@ -1,13 +1,18 @@
 #title-card{;
   .cover-container{
     overflow: hidden;
-    height: 100vh;
-    img{
-      height: 100%;
-      right: -45vh;
-      float: right;
-      position: relative;
+    @include media-breakpoint-up(md) {
+      height: 100vh;
+      img{
+
+        height: 100%;
+        right: -45vh;
+        float: right;
+        position: relative;
+      }
     }
+    height: 50vh;
+
   }
 
   .call-to-action-block{

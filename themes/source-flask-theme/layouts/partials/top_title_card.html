@@ -2,7 +2,7 @@
 {{ if .Site.Params.top_title_card.enable }}
 <section  id="title-card">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 order-md-1 order-2">
             <div class="container d-flex align-items-center h-100">
 
                 <div  class="call-to-action-block">
@@ -12,18 +12,19 @@
 
                     <div class="fresh-senator-subtitle">student org senator</div>
 
-                    <div class="voting-starts">
+                    <div v class="voting-starts">
                         voting starts in
                         <div class="clock">130:21:01</div>
                     </div>
                 </div>
             </div>
         </div>
-      <div class="col-md-6">
-          <div class="cover-container">
-            <img src="/img/top_1.jpg">
-          </div>
-      </div>
+
+        <div class="col-md-6 order-md-2 order-1">
+            <div class="cover-container">
+                <img src="/img/top_1.jpg">
+            </div>
+        </div>
     </div>
 </section>
 {{ end }}
