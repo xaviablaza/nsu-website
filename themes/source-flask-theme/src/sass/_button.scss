@@ -1,10 +1,12 @@
+$btn-border-color: #5f5f5f;
+$btn-hover: #f3f3f3;
+
 .cf-btn-primary {
   @include font-lato;
   color: #fff;
   padding: .10rem 6rem;
   border-style: solid;
-  border-color: $btn-light;
-  background-color: $btn-light;
+  border-color: $btn-border-color;
   border-radius: 40px;
   font-size: 2rem;
   text-transform: uppercase;
@@ -20,5 +22,10 @@
     font-weight: 200;
     letter-spacing: .5rem;
     padding: 2rem 0;
+  }
+
+  &.cf-btn-sm{
+    font-size: 2rem;
+    padding: .2rem 3rem;
   }
 }
