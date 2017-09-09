@@ -10034,6 +10034,10 @@ section #clock1 {
   font-weight: 500;
 }
 
+#call-to-action .sub-title {
+  font-size: 1.2rem;
+}
+
 @media (min-width: 991px) {
   .moreabout {
     margin-top: 40px;
