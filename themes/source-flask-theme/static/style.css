@@ -9797,20 +9797,58 @@ address {
   line-height: 1.42857143;
 }
 
+.cf-btn-primary {
+  padding: .10rem 6rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: 40px;
+  font-size: 3rem;
+}
+
+.cf-btn-primary:hover {
+  background: #495057;
+}
+
+.cf-btn-primary .voting-flag {
+  font-size: 5rem;
+  font-weight: 200;
+  letter-spacing: .5rem;
+  padding: 2rem 0;
+}
+
+#title-card {
+  padding-bottom: 3rem;
+  margin-bottom: 6rem;
+  background: #f9f9f9;
+}
+
+@media (min-width: 768px) {
+  #title-card {
+    padding-bottom: 0;
+  }
+}
+
 #title-card .cover-container {
   overflow: hidden;
-  height: 50vh;
+  margin-bottom: 5rem;
+  height: auto;
+}
+
+#title-card .cover-container img {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
   #title-card .cover-container {
     height: 100vh;
+    margin-bottom: 0;
   }
 
   #title-card .cover-container img {
     height: 100%;
-    right: -45vh;
-    float: right;
+    float: left;
+    width: auto;
+    left: -35vh;
     position: relative;
   }
 }
@@ -9820,7 +9858,6 @@ address {
   font-size: 3rem;
   margin: 0 auto;
   position: relative;
-  left: -2rem;
 }
 
 #title-card .call-to-action-block .fresh-senator {
@@ -9849,11 +9886,45 @@ address {
   font-weight: bolder;
 }
 
-section .section-heading {
+section h1.section-title {
+  color: #403d33;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  padding: 2rem 0;
   font-size: 3.2rem;
   text-transform: uppercase;
   letter-spacing: 15px;
   font-weight: 400;
+}
+
+section.background-gray {
+  background: #f3f3f3;
+}
+
+#testimonials .testimonial {
+  padding-top: 2rem;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: #403d33;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  text-align: center;
+}
+
+#testimonials .testimonial > .sub-title {
+  color: #8e9092;
+  padding-top: 1rem;
+}
+
+#call-to-action .voting-flag {
+  font-size: 5rem;
+  letter-spacing: .5rem;
+  font-weight: 200;
+  padding: 2rem 0;
+}
+
+#call-to-action .question {
+  padding: 2rem;
+  font-size: 1.9rem;
+  font-weight: 500;
 }
 
 @media (min-width: 991px) {
@@ -9879,6 +9950,7 @@ section .section-heading {
 .moreabout .tagline {
   font-size: 2.5rem;
   line-height: 2.14;
+  margin-bottom: 20px;
 }
 
 .moreabout .accolade {

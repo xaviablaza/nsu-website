@@ -1,3 +1,16 @@
-.flask-btn-primary{
-
+.cf-btn-primary {
+  padding: .10rem 6rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: 40px;
+  font-size: 3rem;
+  &:hover{
+    background: $gray-700;
+  }
+  .voting-flag{
+    font-size: 5rem;
+    font-weight: 200;
+    letter-spacing: .5rem;
+    padding: 2rem 0;
+  }
 }
