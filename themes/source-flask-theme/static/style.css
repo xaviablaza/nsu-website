@@ -9831,7 +9831,7 @@ address {
 #title-card .cover-container {
   overflow: hidden;
   margin-bottom: 5rem;
-  height: 50vh;
+  height: auto;
 }
 
 #title-card .cover-container img {
