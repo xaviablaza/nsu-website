@@ -1,5 +1,16 @@
 
-html { font-size: 62.5%; }
+html {
+  font-size: 38%;
+  @include media-breakpoint-down(sm) {
+    font-size: 50%;
+  }
+  @media (min-width: 858px) {
+    font-size: 50.5%;
+  }
+  @media (min-width: 1037px) {
+    font-size: 62.5%;
+  }
+}
 
 
 /* type */

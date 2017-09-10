@@ -1,17 +1,9 @@
 .moreabout {
-	@media (min-width: 991px) {
-		margin-top: 12rem !important;
-		#about-me {
-			margin-top: 60px;
+	@include media-breakpoint-down(sm) {
+		margin-top: 5rem;
+	}
+	margin-top: 10rem;
 
-			.tyler-pic {
-				width: 90%;
-			}
-		}
-	}
-	@media (min-width: 575px) {
-		margin-top: 20px;
-	}
 
 	.tagline {
 		@include font-lato;
@@ -25,9 +17,9 @@
 	
 	.accolade {
 		@include font-lato;
-		padding-left: 15px;
-		margin-top: 30px;
-		margin-bottom: 30px;
+		padding-left: 1.2rem;
+		margin-top: 2.6rem;
+		margin-bottom: 2.6rem;
 		font-size: 1.9rem;
 		border-left: 1px solid $text-light;
 		line-height: 2.5;
