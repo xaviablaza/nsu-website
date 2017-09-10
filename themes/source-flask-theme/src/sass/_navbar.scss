@@ -16,6 +16,12 @@ $nav-border-color:#e4e4e4;
     font-weight: 100;
     line-height: 4rem;
     margin: 0;
+    padding-left: 0.5rem;
+    &>span {
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 0.2rem;
+    }
   }
 
   .navbar>*{
@@ -24,4 +30,37 @@ $nav-border-color:#e4e4e4;
     }
   }
 
+  .nav-countdown {
+    font-size: 2.7rem;
+    font-weight: 400;
+    color: $text-dark;
+    >* {
+      display: inline-block;
+    }
+    padding-right: 0.5rem;
+  }
+
+  .vote-btn {
+    a {
+      @include font-lato;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 1px;
+      padding: 10px 50px 10px 50px;
+      background-color: transparent;
+      color: $text-dark;
+      border: 2px solid $text-dark;
+      border-radius: 30px;
+      transition: all 0.2s ease-out;
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+      @include font-lato;
+      background-color: $btn-light;
+      border-color: $btn-light;
+      color: #fff;
+    }
+  }
 }

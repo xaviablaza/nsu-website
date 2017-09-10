@@ -36,14 +36,18 @@ $(document).ready(() => {
       distance = voteStart - now
       document.getElementById('vote-title').innerHTML = 'voting starts in'
       document.getElementById('voting-flag').innerHTML = 'voting starts in'
+      document.getElementById('vote-nav').innerHTML = 'Voting starts in'
     } else if (voteEnd - now > 0) {
       distance = voteEnd - now
       document.getElementById('vote-title').innerHTML = 'voting ends in'
       document.getElementById('voting-flag').innerHTML = 'voting ends in'
+      document.getElementById('vote-nav').innerHTML = 'Voting ends in'
+      $('.nav-countdown').hide()
       $('.vote-btn').show()
     } else {
       document.getElementById('vote-title').innerHTML = 'voting has ended!'
       document.getElementById('voting-flag').innerHTML = 'voting has ended!'
+      document.getElementById('vote-nav').innerHTML = 'Voting has ended!'
     }
 
     // Time calculations for days, hours, minutes and seconds
@@ -55,6 +59,7 @@ $(document).ready(() => {
     // Display the result in the element with id="demo"
     document.getElementById('clock').innerHTML = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's '
     document.getElementById('clock1').innerHTML = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's '
+    document.getElementById('clock3').innerHTML = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's '
 
     // If the count down is finished, write some text
     if (distance < 0) {
