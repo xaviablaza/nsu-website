@@ -1,8 +1,6 @@
 #call-to-action {
   @include font-lato;
-  //font-size: 3rem;
-  //margin: 0 auto;
-  //position: relative;
+  padding-bottom: 30px;
 
   .voting-starts {
     padding-top: 4rem;
@@ -36,6 +34,7 @@
   }
 
   .sub-title{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: $text-light;
   }
 }

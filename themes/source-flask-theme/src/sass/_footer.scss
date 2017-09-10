@@ -1,0 +1,32 @@
+#footer {
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
+  .vote-for {
+    line-height: 1.5rem;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    &>span {
+      font-weight: bolder;
+    }
+  }
+
+  .fresh-senator {
+    font-size: 3.5rem;
+    letter-spacing: 1rem;
+    font-weight: 100;
+    line-height: 4.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .icon {
+    height: 48px;
+    width: 48px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+
+  .madeby-tagline {
+    padding-top: 3rem;
+  }
+}
