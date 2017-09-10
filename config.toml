@@ -1,4 +1,4 @@
-baseurl = "http://www.sourceflask.com/"
+baseurl = "https://swordmaker-mariam-88443.netlify.com/"
 title = "Source Flask"
 theme = "source-flask-theme"
 languageCode = "en-us"
