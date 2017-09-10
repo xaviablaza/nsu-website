@@ -1,6 +1,6 @@
 .moreabout {
 	@media (min-width: 991px) {
-		margin-top: 40px;
+		margin-top: 12rem !important;
 		#about-me {
 			margin-top: 60px;
 
@@ -18,15 +18,19 @@
 		font-size: 2.5rem;
 		line-height: 2.14;
 		margin-bottom: 20px;
+		@media (min-width: 991px) {
+			margin-top: -15px;
+		}
 	}
 	
 	.accolade {
 		@include font-lato;
-		padding-left: 10px;
+		padding-left: 15px;
 		margin-top: 30px;
 		margin-bottom: 30px;
 		font-size: 1.9rem;
 		border-left: 1px solid $text-light;
+		line-height: 2.5;
 	}
 }
 

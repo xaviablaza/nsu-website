@@ -9798,6 +9798,7 @@ address {
 }
 
 #header {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   transition: all .5s ease 0s;
   top: 0;
   border: solid;
@@ -9825,6 +9826,12 @@ address {
   letter-spacing: 0.2rem;
 }
 
+@media (max-width: 767px) {
+  #header .navbar-brand > h1 {
+    text-align: center;
+  }
+}
+
 @media (max-width: 991px) {
   #header .navbar > * {
     margin: 0 auto;
@@ -9840,6 +9847,12 @@ address {
 
 #header .nav-countdown > * {
   display: inline-block;
+}
+
+@media (max-width: 767px) {
+  #header .nav-countdown {
+    font-size: 2rem;
+  }
 }
 
 #header .vote-btn a {
@@ -10076,7 +10089,7 @@ section #clock1 {
 
 #call-to-action {
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  padding-bottom: 30px;
+  padding-bottom: 5rem;
 }
 
 #call-to-action .voting-starts {
@@ -10117,7 +10130,7 @@ section #clock1 {
 
 @media (min-width: 991px) {
   .moreabout {
-    margin-top: 40px;
+    margin-top: 12rem !important;
   }
 
   .moreabout #about-me {
@@ -10142,13 +10155,20 @@ section #clock1 {
   margin-bottom: 20px;
 }
 
+@media (min-width: 991px) {
+  .moreabout .tagline {
+    margin-top: -15px;
+  }
+}
+
 .moreabout .accolade {
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  padding-left: 10px;
+  padding-left: 15px;
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 1.9rem;
   border-left: 1px solid #95989a;
+  line-height: 2.5;
 }
 
 .features {
@@ -10158,7 +10178,8 @@ section #clock1 {
 
 @media (min-width: 991px) {
   .features {
-    margin-top: 40px;
+    margin-top: 7.5rem !important;
+    margin-bottom: 5rem !important;
   }
 
   .features #what-we-do {
@@ -10210,7 +10231,7 @@ section #clock1 {
   font-weight: 400;
   font-size: 1.8rem;
   color: #1b1c16;
-  line-height: 2.0;
+  line-height: 2.5;
 }
 
 @media (max-width: 991px) {

@@ -1,7 +1,8 @@
 .features {
 	@include font-lato;
 	@media (min-width: 991px) {
-		margin-top: 40px;
+		margin-top: 7.5rem !important;
+		margin-bottom: 5rem !important;
 		#what-we-do {
 			margin-top: 60px;
 		}
@@ -42,7 +43,7 @@
 	  font-weight: 400;
 	  font-size: 1.8rem;
 	  color: $text-dark;
-	  line-height: 2.0;
+	  line-height: 2.5;
 	  @media (max-width: 991px) {
 		font-size: 2rem;
 	  }
