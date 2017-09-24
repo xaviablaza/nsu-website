@@ -9684,7 +9684,6 @@ html {
 
 html {
   font-size: 38%;
-  margin: 0 0.5rem 0 0.5rem;
 }
 
 @media (max-width: 767px) {
@@ -10191,6 +10190,8 @@ section.background-gray {
 @media (max-width: 767px) {
   .moreabout {
     margin-top: 5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 }
 
