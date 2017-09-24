@@ -9684,11 +9684,13 @@ html {
 
 html {
   font-size: 38%;
+  margin: 0 0.5rem 0 0.5rem;
 }
 
 @media (max-width: 767px) {
   html {
     font-size: 50%;
+    margin: 0;
   }
 }
 
@@ -9931,6 +9933,8 @@ address {
 }
 
 .cf-btn-primary {
+  display: inline-block;
+  margin-bottom: 47px;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   color: #fff;
   padding: .10rem 6rem;
@@ -10195,6 +10199,7 @@ section.background-gray {
   font-size: 2rem;
   line-height: 2.14;
   margin-bottom: 20px;
+  margin-top: 15px;
 }
 
 @media (min-width: 991px) {
