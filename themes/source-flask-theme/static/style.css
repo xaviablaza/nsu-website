@@ -10093,6 +10093,7 @@ section.background-gray {
 
 #call-to-action {
   font-family: "Lato", Helvetica, Arial, sans-serif;
+  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -10101,7 +10102,6 @@ section.background-gray {
 }
 
 #call-to-action .vote-for {
-  line-height: 3rem;
   font-size: 6rem;
   padding-bottom: 2rem;
 }
@@ -10130,6 +10130,28 @@ section.background-gray {
 #call-to-action .sub-title {
   font-size: 1.5rem;
   color: #95989a;
+}
+
+#call-to-action a:link,
+#call-to-action a:visited {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 5px;
+  padding: 10px 50px 10px 50px;
+  background-color: #317dce;
+  color: #fff;
+  border: 2px solid #317dce;
+  border-radius: 30px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+#call-to-action a:hover,
+#call-to-action a:active {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  background-color: #155599;
+  border-color: #155599;
 }
 
 .moreabout {
