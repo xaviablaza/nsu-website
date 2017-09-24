@@ -10055,10 +10055,6 @@ address {
   border-color: #155599;
 }
 
-#title-card #clock {
-  margin-bottom: 20px;
-}
-
 section {
   padding: 0 0.4rem;
 }
@@ -10079,15 +10075,6 @@ section .no-gutters {
 
 section.background-gray {
   background: #f3f3f3;
-}
-
-section .vote-btn {
-  display: none;
-}
-
-section #clock1 {
-  margin-bottom: 20px;
-  font-size: 3rem;
 }
 
 #testimonials .testimonial {
@@ -10147,6 +10134,7 @@ section #clock1 {
 
 .moreabout {
   margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 @media (max-width: 767px) {
@@ -10157,7 +10145,7 @@ section #clock1 {
 
 .moreabout .tagline {
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 2.14;
   margin-bottom: 20px;
 }
