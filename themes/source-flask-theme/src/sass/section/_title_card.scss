@@ -32,19 +32,30 @@
 
   .call-to-action-block{
     @include font-lato;
-    font-size: 3rem;
     margin: 0 auto;
     position: relative;
     .fresh-senator{
+      @media (max-width: 1222px) {
+        font-size: 4rem;
+      }
+      @media (max-width: 991px) {
+        font-size: 3rem;
+      }
       font-size: 5rem;
       font-weight: 100;
       letter-spacing: 0.5rem;
     }
 
     .fresh-senator-subtitle{
+      margin-bottom: 30px;
       font-weight: 100;
       font-size: 3rem;
-
+      @media(max-width: 1222px) {
+        font-size: 2.5rem;
+      }
+      @media (max-width: 991px) {
+        font-size: 2.1rem;
+      }
     }
     .voting-starts{
       padding-top: 4rem;
