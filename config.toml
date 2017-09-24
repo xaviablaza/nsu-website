@@ -1,5 +1,5 @@
 baseurl = "https://bookkeeper-polecat-42424.netlify.com"   
-title = "Vote for Tyler Brooks"
+title = "AP Statistics Poster Competition"
 theme = "source-flask-theme"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
