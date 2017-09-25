@@ -9991,7 +9991,6 @@ address {
 @media (min-width: 768px) {
   #title-card .cover-container {
     height: 100vh;
-    max-height: 109vw;
     margin-bottom: 0;
   }
 
