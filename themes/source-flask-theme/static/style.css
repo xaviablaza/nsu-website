@@ -10164,7 +10164,8 @@ section.background-gray {
   padding: 2rem 0;
 }
 
-#call-to-action .question {
+#call-to-action .question,
+#call-to-action .question p {
   margin-top: 20px;
   padding: 2rem;
   font-size: 1.9rem;
@@ -10206,8 +10207,8 @@ section.background-gray {
 @media (max-width: 767px) {
   .moreabout {
     margin-top: 5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 

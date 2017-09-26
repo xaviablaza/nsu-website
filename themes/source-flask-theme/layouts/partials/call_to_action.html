@@ -1,8 +1,12 @@
+{{ if isset .Site.Params "call_to_action" }}
+{{ if .Site.Params.call_to_action.enable }}
 <section id="call-to-action" class="text-center background-gray">
-    <div class="vote-for">Registration is ongoing!</div>
-    <a class="vote-btn" href="http://www.chapmanvotes.com/">SIGN-UP NOW</a>
-    <div class="question">Have any questions?<br>Get in touch with Dr. Criselda Toto:</div>
+    <div class="vote-for">{{.Site.Params.call_to_action.main_tag}}</div>
+    <a class="vote-btn" href="{{ .Site.Params.signup_link }}">SIGN-UP NOW</a>
+    <div class="question">{{.Site.Params.call_to_action.sub_title | markdownify}}</div>
 
-    <div class="sub-title">for questions call or text (714) 997-6782</div>
-    <div class="sub-title">or email toto@chapman.edu</div>
+    <div class="sub-title">for questions call or text {{.Site.Params.call_to_action.phone_number}}</div>
+    <div class="sub-title">or email {{.Site.Params.call_to_action.email}}</div>
 </section>
+{{end}}
+{{end}}

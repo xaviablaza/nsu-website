@@ -6,19 +6,19 @@
             <div class="col-md-5 col-lg-6 order-md-1 order-2 no-gutters">
                 <div class="container d-flex align-items-center h-100">
                     <div class="call-to-action-block">
-                        <div class="vote-for"><span>Join</span> the</div>
+                        <div class="vote-for">{{ safeHTML .Site.Params.top_title_card.main_title }}</div>
 
-                        <div class="fresh-senator">AP STATISTICS</br>POSTER COMPETITION</div>
+                        <div class="fresh-senator">{{ safeHTML .Site.Params.top_title_card.second_title }}</div>
 
-                        <div class="fresh-senator-subtitle">hosted at Chapman University on April 7, 2018</div>
-                        <a class="cf-btn-primary" href="http://www.chapmanvotes.com/">Sign-Up Now</a>
+                        <div class="fresh-senator-subtitle">{{ safeHTML .Site.Params.top_title_card.sub_title }}</div>
+                        <a class="cf-btn-primary" href="{{ .Site.Params.signup_link }}">Sign-Up Now</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-7 col-lg-6 order-md-2 order-1 no-gutters">
                 <div class="cover-container">
-                    <img src="/img/top.jpg">
+                    <img src="{{ .Site.BaseURL }}{{ .Site.Params.top_title_card.img }}">
                 </div>
             </div>
         </div>

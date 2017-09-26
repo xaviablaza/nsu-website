@@ -1,16 +1,16 @@
 <footer id="footer">
     <div class="container text-center">
-        <div class="vote-for"><span>Join</span> the</div>
-        <div class="fresh-senator">AP STATISTICS<br>POSTER COMPETITION</div>
+        <div class="vote-for">{{ safeHTML .Site.Params.footer.main_title }}</div>
+        <div class="fresh-senator">{{ safeHTML .Site.Params.footer.second_title }}</div>
         <div class="row">
             <div class="col-md-12">
-                <a href="https://www.facebook.com/APStatisticsPosterComp/"><img class="icon" src="/icons/facebook.png"></a>
+                <a href="{{.Site.Params.facebook}}"><img class="icon" src="/icons/facebook.png"></a>
             </div>
         </div>
         <div class="madeby-tagline">
             <div class="row">
                 <div class="col-md-12">
-                    made by SourceFlask, the consulting arm of <a href="https://www.facebook.com/UXSocChapmanU">User Experience Society ChapmanU</a>
+                    {{ .Site.Params.copyright | safeHTML}}
                 </div>
             </div>
         </div>
