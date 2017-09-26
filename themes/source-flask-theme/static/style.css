@@ -10028,7 +10028,7 @@ address {
 
 @media (max-width: 991px) {
   #title-card .call-to-action-block {
-    margin: 0;
+    margin: 2.5%;
   }
 }
 
@@ -10045,6 +10045,12 @@ address {
 }
 
 @media (max-width: 991px) {
+  #title-card .call-to-action-block .fresh-senator {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 576px) {
   #title-card .call-to-action-block .fresh-senator {
     font-size: 3.5rem;
   }
@@ -10063,6 +10069,12 @@ address {
 }
 
 @media (max-width: 991px) {
+  #title-card .call-to-action-block .fresh-senator-subtitle {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 576px) {
   #title-card .call-to-action-block .fresh-senator-subtitle {
     font-size: 2.6rem;
   }
@@ -10124,6 +10136,11 @@ section .no-gutters {
 
 section.background-gray {
   background: #f3f3f3;
+}
+
+section.background-white {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 #testimonials .testimonial {
