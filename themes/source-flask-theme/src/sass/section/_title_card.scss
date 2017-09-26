@@ -51,14 +51,17 @@
 
   .call-to-action-block{
     @include font-lato;
-    //margin: 0 auto;
+    margin: 0 auto;
+    @media (max-width: 991px) {
+        margin: 0;
+    }
     position: relative;
     .fresh-senator{
       @media (max-width: 1222px) {
         font-size: 4rem;
       }
       @media (max-width: 991px) {
-        font-size: 3rem;
+        font-size: 3.5rem;
       }
       font-size: 5rem;
       font-weight: 100;
@@ -73,7 +76,7 @@
         font-size: 2.5rem;
       }
       @media (max-width: 991px) {
-        font-size: 2.1rem;
+        font-size: 2.6rem;
       }
     }
     .voting-starts{
