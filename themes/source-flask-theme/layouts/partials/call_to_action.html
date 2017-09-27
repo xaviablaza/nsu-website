@@ -2,7 +2,7 @@
 {{ if .Site.Params.call_to_action.enable }}
 <section id="call-to-action" class="text-center background-gray">
     <div class="vote-for">{{.Site.Params.call_to_action.main_tag}}</div>
-    <a class="vote-btn" href="{{ .Site.Params.signup_link }}">SIGN-UP NOW</a>
+    <a class="cf-btn-primary vote-btn" href="{{ .Site.Params.signup_link }}">SIGN-UP NOW</a>
     <div class="question">{{.Site.Params.call_to_action.sub_title | markdownify}}</div>
 
     <div class="sub-title">for questions call or text {{.Site.Params.call_to_action.phone_number}}</div>

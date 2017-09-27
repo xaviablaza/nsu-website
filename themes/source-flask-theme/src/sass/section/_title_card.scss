@@ -16,6 +16,10 @@
     }
   }
 
+  .title_button{
+    margin-bottom: 47px;
+  }
+
   padding-bottom: 3rem;
   @include media-breakpoint-up(md) {
     padding-bottom: 0;
@@ -100,26 +104,5 @@
 
   }
 
-  a:link,
-  a:visited {
-    @include font-lato;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 5px;
-    padding: 10px 50px 10px 50px;
-    background-color: $btn-light;
-    color: #fff;
-    border: 2px solid $btn-light;
-    border-radius: 30px;
-    transition: all 0.2s ease-out;
-    text-decoration: none;
-  }
-
-  a:hover,
-  a:active {
-    @include font-lato;
-    background-color: $btn-dark;
-    border-color: $btn-dark;
-  }
 }
 

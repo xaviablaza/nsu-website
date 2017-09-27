@@ -9932,24 +9932,29 @@ address {
 }
 
 .cf-btn-primary {
-  display: inline-block;
-  margin-bottom: 47px;
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  color: #fff;
-  padding: .10rem 6rem;
-  border-style: solid;
-  border-color: #5f5f5f;
-  border-radius: 40px;
-  font-size: 2rem;
+  display: inline-block;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 16px;
   letter-spacing: 5px;
+  padding: 10px 50px 10px 50px;
+  background-color: #317dce;
+  color: #fff;
+  border: 2px solid #317dce;
+  border-radius: 30px;
   transition: all 0.2s ease-out;
+  text-decoration: none;
 }
 
-.cf-btn-primary:hover {
+.cf-btn-primary:hover,
+.cf-btn-primary:active {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   background-color: #155599;
   border-color: #155599;
+  color: #fff;
+  text-decoration: none;
 }
 
 .cf-btn-primary .voting-flag {
@@ -9983,6 +9988,10 @@ address {
   #title-card .order-1 {
     order: 1;
   }
+}
+
+#title-card .title_button {
+  margin-bottom: 47px;
 }
 
 @media (min-width: 768px) {
@@ -10094,28 +10103,6 @@ address {
   font-weight: bolder;
 }
 
-#title-card a:link,
-#title-card a:visited {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 5px;
-  padding: 10px 50px 10px 50px;
-  background-color: #317dce;
-  color: #fff;
-  border: 2px solid #317dce;
-  border-radius: 30px;
-  transition: all 0.2s ease-out;
-  text-decoration: none;
-}
-
-#title-card a:hover,
-#title-card a:active {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  background-color: #155599;
-  border-color: #155599;
-}
-
 section {
   padding: 0 0.4rem;
 }
@@ -10167,6 +10154,10 @@ section.background-white {
   padding-top: 4rem;
 }
 
+#call-to-action .vote-btn {
+  margin: auto !important;
+}
+
 #call-to-action .vote-for {
   font-size: 5rem;
   padding-bottom: 4rem;
@@ -10198,28 +10189,6 @@ section.background-white {
 #call-to-action .sub-title {
   font-size: 1.5rem;
   color: #95989a;
-}
-
-#call-to-action a:link,
-#call-to-action a:visited {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 5px;
-  padding: 10px 50px 10px 50px;
-  background-color: #317dce;
-  color: #fff;
-  border: 2px solid #317dce;
-  border-radius: 30px;
-  transition: all 0.2s ease-out;
-  text-decoration: none;
-}
-
-#call-to-action a:hover,
-#call-to-action a:active {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  background-color: #155599;
-  border-color: #155599;
 }
 
 .moreabout {
