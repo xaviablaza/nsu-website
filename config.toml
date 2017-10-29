@@ -1,29 +1,23 @@
-baseurl = "https://captain-exchange-57048.netlify.com/"   
-title = "AP Statistics Poster Competition"
-theme = "source-flask-theme"
+baseURL = ""
 languageCode = "en-us"
-# Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
-# Enable comments by entering your Disqus shortname
-# disqusShortname = "devcows"
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-106170280-1"
-
-# Define the number of posts per page
-paginate = 10
-
+title = "Nikkei Student Union"
+theme = "hugo-nsu-theme"
+googleAnalytics = "UA-XXXXXXXX-Y"
 
 [params]
-    viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "With my experience in sales and magic, I help close the gap between the SGA and student orgs on campus."
+    # head theme color
+    theme_color = "#CF1138"
 
-    # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+    # head description
+    # This is what appears on the preview when posting this site on Facebook for example
+    description = ""
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    # head photo, place this in the static/img folder
+    # This is what appears on the preview when posting this site on Facebook for example
+    description_photo = "preview.jpg"
+
+    # favicon image (512x512px), place this in the static/img folder
+    favicon = "favicon.png"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -37,50 +31,50 @@ paginate = 10
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
     #
-    # Enable the contact form by entering your Formspree.io email
-    email = "sourceflaskio@gmail.com"
+    # Enable the contact form by entering your Formspree.io email
+    # Email
+    email = "nsuchapman@chapman.edu"
 
-    copyright = """<p>made by SourceFlask, the consulting arm of <a href="https://www.facebook.com/UXSocChapmanU">User Experience Society ChapmanU</a></p>"""
+    # Facebook url
+    facebook = "https://www.facebook.com/chapman.nsu"
 
-    facebook= "https://www.facebook.com/APStatisticsPosterComp/"
+    # Twitter username
+    twitter = "chapmannsu"
 
-    # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
+    # LinkedIn URL
+    # linkedin = ""
 
-    signup_link = "https://docs.google.com/forms/d/e/1FAIpQLSczuJC1zqXl6JmZyHndHfERookGTc_39AXzmV6zP30uh8g9QQ/viewform?usp=sf_link/"
+    # Medium username
+    # medium = "asdf"
 
-
-[Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
-
-[params.top_title_card]
+[params.nav]
     enable = true
-    main_title = "<span>Join</span> the"
-    second_title = "AP STATISTICS</br>POSTER COMPETITION"
-    sub_title = "hosted at Chapman University on April 7, 2018"
-    img = "img/top.jpg"
 
-[params.morea_about]
+[params.hero]
     enable = true
-    title = "More About The Event"
-    text = """The Southern Californian Chapters of the American Statistical Association organized
-          the AP Statistics Poster Competition as <strong>an avenue for aspiring statisticians</strong>
-          from high school to shine with data-driven discovery through statistics.
 
-          <br><br>
+    # Place this image in the static/img folder
+    hero = "hero.jpg"
 
-          <strong>60 teams will be chosen</strong> from those who apply and will be asked to
-          <strong>present an informational poster</strong> about their study.
-          Teams who place <strong>win up to $100.</strong></p>"""
-    img = "img/about.jpg"
+    title = "Nikkei Student Union"
+    subtitle = "Chapman University"
+    slogan = "Promoting and celebrating Japanese-American Culture"
+    call_to_action = "JOIN US"
 
-[params.call_to_action]
+[params.why_us]
     enable = true
-    main_tag = "Registration is ongoing!"
-    sub_title = """Have any questions?<br>Get in touch with Dr. Criselda Toto:"""
-    phone_number = "(714) 997-6782"
-    email = "toto@chapman.edu"
+    title = "Why come to us"
+
+[params.events]
+    enable = true
+    title = "Upcoming Events"
+    subtitle = "Selected Works"
+
+[params.newsletter]
+    enable = true
+    title = "Newsletter Spiel"
+    subtitle = "Newsletter subtitle"
+    call_to_action = "JOIN US"
 
 [params.footer]
-    main_title = "<span>Join</span> the"
-    second_title = "AP STATISTICS<br>POSTER COMPETITION"
+    enable = true
