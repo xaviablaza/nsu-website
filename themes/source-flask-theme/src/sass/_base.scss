@@ -72,9 +72,18 @@ a.text-primary:hover {
   color: #fff;
   background-color: #38a7bb;
 }
+
+.bg-img {
+  background-image: url("/img/wave.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 a.bg-primary:hover {
   background-color: #2c8494;
 }
+
 abbr[title],
 abbr[data-original-title] {
   border-bottom: 1px dotted #999999;
