@@ -62,17 +62,33 @@ paginate = 10
 
 [params.morea_about]
     enable = true
-    title = "More About The Event"
-    text = """The Southern Californian Chapters of the American Statistical Association organized
-          the AP Statistics Poster Competition as <strong>an avenue for aspiring statisticians</strong>
-          from high school to shine with data-driven discovery through statistics.
+    title = "Why come to us"
+    member_button = "AS A MEMBER"
+    sponser_button = "AS A SPONSOR"
+    item1 = "Cultural Immersion"
+    text1 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail1 = "img/dummy.jpg"
+    img1 = "img/dummy.jpg"
 
-          <br><br>
+    item2 = "Diverse Friends"
+    text2 =  """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail2 = "img/dummy.jpg"
+    img2 = "img/dummy.jpg"
 
-          <strong>60 teams will be chosen</strong> from those who apply and will be asked to
-          <strong>present an informational poster</strong> about their study.
-          Teams who place <strong>win up to $100.</strong></p>"""
-    img = "img/about.jpg"
+    item3 = "Ramen"
+    text3 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail3 = "img/dummy.jpg"
+    img3 = "img/dummy.jpg"
+
 
 [params.call_to_action]
     enable = true
