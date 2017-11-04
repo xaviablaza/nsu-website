@@ -52,18 +52,38 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 
 [params.hero]
     enable = true
-
-    # Place this image in the static/img folder
-    hero = "hero.jpg"
-
-    title = "Nikkei Student Union"
-    subtitle = "Chapman University"
-    slogan = "Promoting and celebrating Japanese-American Culture"
-    call_to_action = "JOIN US"
-
-[params.why_us]
-    enable = true
+    hero = "img/hero.jpg"
+    #title = "Nikkei Student Union"
+    #subtitle = "Chapman University"
+    #slogan = "Promoting and celebrating Japanese-American Culture"
+    #call_to_action = "JOIN US"
+    
     title = "Why come to us"
+    member_button = "AS A MEMBER"
+    sponser_button = "AS A SPONSOR"
+    item1 = "Cultural Immersion"
+    text1 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail1 = "img/dummy.jpg"
+    img1 = "img/dummy.jpg"
+
+    item2 = "Diverse Friends"
+    text2 =  """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail2 = "img/dummy.jpg"
+    img2 = "img/dummy.jpg"
+
+    item3 = "Ramen"
+    text3 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail3 = "img/dummy.jpg"
+    img3 = "img/dummy.jpg"
 
 [params.events]
     enable = true

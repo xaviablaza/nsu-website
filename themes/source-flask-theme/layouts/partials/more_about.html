@@ -5,17 +5,19 @@
 <section class="bar background-white" id="more-about">
     <div class="moreabout container">
         <h1 class="section-title">{{ .Site.Params.morea_about.title }}</h1>
-        <div id="about-me">
-            <div class="row">
-                <div class="col-md-5">
-                        <img class="img-fluid" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img }}" alt="Students with poster">
-                </div>
-                <div class="col-md-7">
-                    <p class="tagline">
-                        {{ safeHTML .Site.Params.morea_about.text  }}
-                </div>
+
+        <div class="row">
+
+            <div class="col-lg-6" style="background-color: blue">
+                <div></div>
+            </div>
+
+            <div class="col-lg-6" style="background-color: red">
+
             </div>
         </div>
+
+
     </div>
 </section>
 {{end}}
