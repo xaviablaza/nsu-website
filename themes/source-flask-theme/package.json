@@ -37,7 +37,7 @@
     "sass": "^1.0.0-beta.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "webpack": "^3.5.5"
+    "webpack": "^3.8.1"
   },
   "browserify": {
     "transform": [
@@ -52,6 +52,7 @@
     "watch": "webpack --watch"
   },
   "dependencies": {
+    "and": "^0.0.0",
     "babel-plugin-transform-es2015-modules-strip": "^0.1.1",
     "bootstrap": "4.0.0-beta",
     "eslint-loader": "^1.9.0",
@@ -59,7 +60,13 @@
     "global": "^4.3.2",
     "gsap": "^1.20.2",
     "popper.js": "^1.12.5",
+    "run": "^1.4.0",
     "tether": "^1.4.0",
-    "waypoints": "^4.0.1"
-  }
+    "watch": "^1.0.2",
+    "waypoints": "^4.0.1",
+    "yarn": "^1.2.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
 }

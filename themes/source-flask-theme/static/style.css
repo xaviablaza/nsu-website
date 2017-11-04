@@ -1,4 +1,4 @@
-/*!
+@import url(https://fonts.googleapis.com/css?family=Signika);@import url(https://fonts.googleapis.com/css?family=Open+Sans);/*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
@@ -10109,11 +10109,9 @@ section {
 
 section h1.section-title {
   color: #403d33;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: Signika, Helvetica, Arial, sans-serif;
   padding: 2rem 0;
-  font-size: 3.2rem;
-  text-transform: uppercase;
-  letter-spacing: 15px;
+  font-size: 6rem;
   font-weight: 400;
 }
 
@@ -10192,8 +10190,7 @@ section.background-white {
 }
 
 .moreabout {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  background: './img/wave-01.svg';
 }
 
 @media (max-width: 767px) {
