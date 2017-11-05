@@ -63,6 +63,7 @@ paginate = 10
 [params.morea_about]
     enable = true
     title = "Why come to us"
+
     member_button = "AS A MEMBER"
     sponser_button = "AS A SPONSOR"
     item1 = "Cultural Immersion"
