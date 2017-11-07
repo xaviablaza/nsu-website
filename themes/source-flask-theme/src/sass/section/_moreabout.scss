@@ -13,8 +13,10 @@
     }
 
   .flavor-img {
-    width: 100%;
+    object-fit: cover;
     border-radius: 30px;
+    width: 100%;
+    max-height: 40em;
   }
 }
 
