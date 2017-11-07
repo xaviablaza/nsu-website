@@ -73,7 +73,7 @@ paginate = 10
      congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
      aliquam sapien, a pulvinar orci."""
     thumbnail1 = "img/dummy.jpg"
-    img1 = "img/dummy.jpg"
+    img1 = "img/main-placeholder-1.jpg"
 
     item2 = "Diverse Friends"
     text2 =  """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
@@ -81,7 +81,7 @@ paginate = 10
      congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
      aliquam sapien, a pulvinar orci."""
     thumbnail2 = "img/dummy.jpg"
-    img2 = "img/dummy.jpg"
+    img2 = "img/main-placeholder-1.jpg"
 
     item3 = "Ramen"
     text3 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
@@ -89,8 +89,7 @@ paginate = 10
      congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
      aliquam sapien, a pulvinar orci."""
     thumbnail3 = "img/dummy.jpg"
-    img3 = "img/dummy.jpg"
-
+    img3 = "img/main-placeholder-1.jpg"
 
 [params.call_to_action]
     enable = true
