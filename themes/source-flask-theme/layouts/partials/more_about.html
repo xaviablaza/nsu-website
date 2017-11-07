@@ -4,16 +4,19 @@
 
 <section class="bar bg-img" id="more-about">
     <div class="moreabout container ">
-        <h1 class="section-title">{{ .Site.Params.morea_about.title }}</h1>
 
         <div class="row">
 
             <div class="col-lg-6" style="background-color: blue">
+                <h1 class="section-title">{{ .Site.Params.morea_about.title }}</h1>
+                <a class="cf-btn-primary buttons-gap" href="{{ .Site.Params.morea_about.member_button }}">AS A MEMBER</a>
+                <a class="cf-btn-primary" href="{{ .Site.Params.morea_about.member_button }}">AS A SPONSER</a>
 
+                <div class="col-lg-6"></div>
             </div>
 
-            <div class="col-lg-6" style="background-color: red">
-
+            <div class="col-lg-6" style="background-color: yellow">
+                <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">                <p></p>
             </div>
         </div>
 

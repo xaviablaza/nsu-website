@@ -27,7 +27,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  @include font-lato;
+  @include font-open;
   font-weight: 900;
   line-height: 1.1;
   color: #333333;
@@ -38,7 +38,6 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 p {
