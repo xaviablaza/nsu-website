@@ -1,7 +1,7 @@
 $nav-border-color:#e4e4e4;
 
 #header{
-  @include font-lato;
+  @include font-open;
   transition: all .5s ease 0s;
   top: 0;
   &.nav-hidden{
@@ -49,7 +49,7 @@ $nav-border-color:#e4e4e4;
 
   .vote-btn {
     a {
-      @include font-lato;
+      @include font-open;
       font-weight: 400;
       font-size: 16px;
       letter-spacing: 1px;
@@ -64,7 +64,7 @@ $nav-border-color:#e4e4e4;
 
     a:hover,
     a:active {
-      @include font-lato;
+      @include font-open;
       background-color: $btn-light;
       border-color: $btn-light;
       color: #fff;

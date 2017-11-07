@@ -54,7 +54,7 @@
   }
 
   .call-to-action-block{
-    @include font-lato;
+    @include font-open;
     margin: 0 auto;
     @media (max-width: 991px) {
         margin: 2.5%;
