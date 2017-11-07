@@ -1,12 +1,19 @@
 section {
   padding: 0 0.4rem;
-  h1.section-title {
+  h1.section-title, h2.section-title {
     color: $secondary-color;
     font-family: Signika, Helvetica, Arial, sans-serif;
 
     padding: 2rem 0;
-    font-size: 6rem;
     font-weight: 400;
+  }
+
+  h1.section-title {
+    font-size: 6rem;
+  }
+
+  h2.section-title {
+    font-size: 5rem;
   }
 
   .no-gutters {

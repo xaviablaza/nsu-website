@@ -7,7 +7,7 @@
 
         <div class="row">
 
-            <div class="col-lg-6" style="background-color: blue">
+            <div class="col-lg-6 reflow-gap" >
                 <h1 class="section-title">{{ .Site.Params.morea_about.title }}</h1>
                 <a class="cf-btn-primary buttons-gap" href="{{ .Site.Params.morea_about.member_button }}">AS A MEMBER</a>
                 <a class="cf-btn-primary" href="{{ .Site.Params.morea_about.member_button }}">AS A SPONSER</a>
@@ -15,8 +15,10 @@
                 <div class="col-lg-6"></div>
             </div>
 
-            <div class="col-lg-6" style="background-color: yellow">
-                <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">                <p></p>
+            <div class="col-lg-6" >
+                <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
+                <h2 class="section-title">{{ .Site.Params.morea_about.item1 }} </h2>
+                <div class="sub-title">{{ .Site.Params.morea_about.text1 }}</div>
             </div>
         </div>
 
