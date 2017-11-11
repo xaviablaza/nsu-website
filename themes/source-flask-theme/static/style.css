@@ -9719,7 +9719,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
   line-height: 1.1;
   color: #333333;
@@ -9823,11 +9823,7 @@ address {
 }
 
 #header {
-<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
-=======
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
->>>>>>> origin/master
   transition: all .5s ease 0s;
   top: 0;
   /*
@@ -9889,13 +9885,8 @@ address {
   }
 }
 
-<<<<<<< HEAD
-#header .vote-btn .links {
+#header .nav-link .links {
   font-family: "Open Sans", sans-serif;
-=======
-#header .vote-btn a {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
->>>>>>> origin/master
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
@@ -9906,8 +9897,7 @@ address {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-#header .vote-btn .join-us {
+#header .nav-link .join-us {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -9916,24 +9906,8 @@ address {
   padding: 10px 50px 10px 50px;
   transition: all 0.2s ease-out;
   text-decoration: none;
-  border-top-width: 2px;
-  border-top-style: solid;
-  border-right-width: 2px;
-  border-right-style: solid;
-  border-left-width: 2px;
-  border-left-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
   border-radius: 30px;
   background-color: white;
-=======
-#header .vote-btn a:hover,
-#header .vote-btn a:active {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background-color: #607d9d;
-  border-color: #607d9d;
-  color: #fff;
->>>>>>> origin/master
 }
 
 #footer {
@@ -9973,7 +9947,7 @@ address {
 }
 
 .cf-btn-primary {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 400;
@@ -9981,7 +9955,7 @@ address {
   padding: 1em 2em 1em 2em;
   background-color: #607d9d;
   color: #fff;
-  border: 2px solid #607d9d;
+  border: 2px solid #317dce;
   border-radius: 30px;
   transition: all 0.2s ease-out;
   text-decoration: none;
@@ -9989,9 +9963,9 @@ address {
 
 .cf-btn-primary:hover,
 .cf-btn-primary:active {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background-color: #95989a;
-  border-color: #95989a;
+  font-family: "Open Sans", sans-serif;
+  background-color: #155599;
+  border-color: #155599;
   color: #fff;
   text-decoration: none;
 }
@@ -10002,7 +9976,7 @@ address {
 }
 
 .cf-btn-secondary {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: inline-block;
   font-weight: 400;
   font-size: 5em;
@@ -10016,7 +9990,7 @@ address {
 
 .cf-btn-secondary:hover,
 .cf-btn-secondary:active {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   border-color: #da001b;
   text-decoration: none;
   color: #da001b;
@@ -10079,7 +10053,7 @@ address {
 }
 
 #title-card .call-to-action-block {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0 auto;
   position: relative;
 }
@@ -10188,7 +10162,7 @@ section.background-white {
 
 #testimonials .testimonial {
   padding-top: 2rem;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #da001b;
   font-size: 1.8rem;
   padding: 1rem 3rem;
@@ -10201,7 +10175,7 @@ section.background-white {
 }
 
 #call-to-action {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -10210,7 +10184,7 @@ section.background-white {
   padding-top: 4rem;
 }
 
-#call-to-action .vote-btn {
+#call-to-action .nav-link {
   margin: auto !important;
 }
 
@@ -10293,7 +10267,7 @@ section.background-white {
 }
 
 .features {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   /* Icon Animation and Text Formatting */
 }
 

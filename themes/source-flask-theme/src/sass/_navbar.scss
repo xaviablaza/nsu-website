@@ -1,12 +1,7 @@
 $nav-border-color:#e4e4e4;
 
-#header{
-<<<<<<< HEAD
- @include font-opensans;
-
-=======
-  @include font-open;
->>>>>>> origin/master
+#header {
+  @include font-opensans;
   transition: all .5s ease 0s;
   top: 0;
   /*
@@ -58,15 +53,9 @@ $nav-border-color:#e4e4e4;
     padding-right: 0.5rem;
   }
 
-  .vote-btn {
-<<<<<<< HEAD
+  .nav-link {
     .links {
       @include font-opensans;
-
-=======
-    a {
-      @include font-open;
->>>>>>> origin/master
       font-weight: 400;
       font-size: 16px;
       letter-spacing: 1px;
@@ -75,9 +64,8 @@ $nav-border-color:#e4e4e4;
       color: white;
       transition: all 0.2s ease-out;
       text-decoration: none;
-
     }
-    .join-us{
+    .join-us {
         @include font-opensans;
         font-weight: 400;
         font-size: 16px;
@@ -86,29 +74,8 @@ $nav-border-color:#e4e4e4;
         padding: 10px 50px 10px 50px;
         transition: all 0.2s ease-out;
         text-decoration: none;
-
-<<<<<<< HEAD
-        border-top-width: 2px;
-        border-top-style: solid;
-        border-right-width: 2px;
-        border-right-style: solid;
-        border-left-width: 2px;
-        border-left-style: solid;
-        border-bottom-width: 2px;
-        border-bottom-style: solid;
         border-radius: 30px;
         background-color: white;
       }
-=======
-    a:hover,
-    a:active {
-      @include font-open;
-      background-color: $btn-light;
-      border-color: $btn-light;
-      color: #fff;
->>>>>>> origin/master
     }
-
-
-
-  }
+}

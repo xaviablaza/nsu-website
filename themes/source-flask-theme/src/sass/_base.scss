@@ -1,5 +1,3 @@
-
-
 html {
   font-size: 38%;
   @include media-breakpoint-down(sm) {
@@ -28,7 +26,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  @include font-open;
+  @include font-opensans;
   font-weight: 900;
   line-height: 1.1;
   color: #333333;
