@@ -9,8 +9,13 @@
 
             <div class="col-lg-6 reflow-gap" >
                 <h1 class="section-title">{{ .Site.Params.morea_about.title }}</h1>
-                <a class="cf-btn-primary buttons-gap" href="{{ .Site.Params.morea_about.member_button }}">AS A MEMBER</a>
-                <a class="cf-btn-primary" href="{{ .Site.Params.morea_about.member_button }}">AS A SPONSER</a>
+                <a class="cf-btn-primary buttons-gap" href="{{ .Site.Params.morea_about.member_button }}">{{ .Site.Params.morea_about.member_button }}</a>
+                <a class="cf-btn-primary" href="{{ .Site.Params.morea_about.member_button }}">{{ .Site.Params.morea_about.sponser_button }}</a>
+                <div class="row" style="background-color: red;">
+                    <a class="cf-btn-primary " href="{{ .Site.Params.morea_about.member_button }}">
+                        <img class="" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail1 }}">
+                        EX</a>
+                </div>
 
                 <div class="col-lg-6"></div>
             </div>

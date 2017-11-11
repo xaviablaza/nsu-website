@@ -63,16 +63,15 @@ paginate = 10
 [params.morea_about]
     enable = true
     title = "Why come to us"
-    # figure out linking
-    #member_button =
-    #sponser_button =
+    member_button = "AS A MEMBER"
+    sponser_button = "AS A SPONSER"
 
     item1 = "Cultural Immersion"
     text1 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
      condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
      congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
      aliquam sapien, a pulvinar orci."""
-    thumbnail1 = "img/dummy.jpg"
+    thumbnail1 = "icons/torii.svg"
     img1 = "img/main-placeholder-1.jpg"
 
     item2 = "Diverse Friends"
