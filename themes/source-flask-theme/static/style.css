@@ -9824,17 +9824,25 @@ address {
 }
 
 #header {
+<<<<<<< HEAD
+  font-family: "Open Sans", sans-serif;
+=======
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+>>>>>>> origin/master
   transition: all .5s ease 0s;
   top: 0;
-  border: solid;
+  /*
+  &.nav-hidden{
+    top: -200px;
+  }
+  */
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
   border-width: 1px;
   border-color: #e4e4e4;
-  background: white;
-}
-
-#header.nav-hidden {
-  top: -200px;
+  background: indianred;
 }
 
 #header .navbar-brand > h1 {
@@ -9848,6 +9856,7 @@ address {
 
 #header .navbar-brand > h1 > span {
   font-size: 2.5rem;
+  color: white;
   font-weight: 700;
   letter-spacing: 0.2rem;
 }
@@ -9867,7 +9876,7 @@ address {
 #header .nav-countdown {
   font-size: 2.7rem;
   font-weight: 400;
-  color: #1b1c16;
+  color: white;
   padding-right: 0.5rem;
 }
 
@@ -9881,26 +9890,51 @@ address {
   }
 }
 
+<<<<<<< HEAD
+#header .vote-btn .links {
+  font-family: "Open Sans", sans-serif;
+=======
 #header .vote-btn a {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+>>>>>>> origin/master
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
   padding: 10px 50px 10px 50px;
   background-color: transparent;
-  color: #1b1c16;
-  border: 2px solid #1b1c16;
-  border-radius: 30px;
+  color: white;
   transition: all 0.2s ease-out;
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+#header .vote-btn .join-us {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: indianred;
+  letter-spacing: 1px;
+  padding: 10px 50px 10px 50px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-radius: 30px;
+  background-color: white;
+=======
 #header .vote-btn a:hover,
 #header .vote-btn a:active {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   background-color: #317dce;
   border-color: #317dce;
   color: #fff;
+>>>>>>> origin/master
 }
 
 #footer {
@@ -9912,6 +9946,7 @@ address {
   line-height: 1.5rem;
   font-size: 3rem;
   padding-bottom: 2rem;
+  color: white;
 }
 
 #footer .vote-for > span {
