@@ -9731,7 +9731,6 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -9898,8 +9897,8 @@ address {
 #header .vote-btn a:hover,
 #header .vote-btn a:active {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background-color: #317dce;
-  border-color: #317dce;
+  background-color: #607d9d;
+  border-color: #607d9d;
   color: #fff;
 }
 
@@ -9941,15 +9940,13 @@ address {
 .cf-btn-primary {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   display: inline-block;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 5px;
-  padding: 10px 50px 10px 50px;
-  background-color: #317dce;
+  padding: 1em 2em 1em 2em;
+  background-color: #607d9d;
   color: #fff;
-  border: 2px solid #317dce;
+  border: 2px solid #607d9d;
   border-radius: 30px;
   transition: all 0.2s ease-out;
   text-decoration: none;
@@ -9958,17 +9955,10 @@ address {
 .cf-btn-primary:hover,
 .cf-btn-primary:active {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background-color: #155599;
-  border-color: #155599;
+  background-color: #95989a;
+  border-color: #95989a;
   color: #fff;
   text-decoration: none;
-}
-
-.cf-btn-primary .voting-flag {
-  font-size: 5rem;
-  font-weight: 200;
-  letter-spacing: .5rem;
-  padding: 2rem 0;
 }
 
 .cf-btn-primary.cf-btn-sm {
@@ -9976,8 +9966,25 @@ address {
   padding: .2rem 3rem;
 }
 
-#title-card {
-  padding-bottom: 3rem;
+.cf-btn-secondary {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 5em;
+  padding: 0em 1em 0em 1em;
+  color: #da001b;
+  border-radius: 30px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.cf-btn-secondary:hover,
+.cf-btn-secondary:active {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  border-color: #da001b;
+  text-decoration: none;
+  color: #da001b;
 }
 
 @media screen and (min-height: 1000px) {
@@ -10114,12 +10121,21 @@ section {
   padding: 0 0.4rem;
 }
 
-section h1.section-title {
-  color: #da001bff;
+section h1.section-title,
+section h2.section-title {
+  color: #da001b;
   font-family: Signika, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+section h1.section-title {
   padding: 2rem 0;
   font-size: 6rem;
-  font-weight: 400;
+}
+
+section h2.section-title {
+  padding: 4rem 0 0 0;
+  font-size: 5rem;
 }
 
 section .no-gutters {
@@ -10138,7 +10154,7 @@ section.background-white {
 #testimonials .testimonial {
   padding-top: 2rem;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  color: #da001bff;
+  color: #da001b;
   font-size: 1.8rem;
   padding: 1rem 3rem;
   text-align: center;
@@ -10196,12 +10212,49 @@ section.background-white {
   color: #95989a;
 }
 
+.moreabout {
+  /*may need to be made more responcive*/
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
 @media (max-width: 767px) {
   .moreabout {
-    margin-top: 5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+}
+
+.moreabout .buttons-gap {
+  margin-right: 10px;
+}
+
+.moreabout .reflow-gap {
+  margin-bottom: 4rem;
+}
+
+.moreabout .flavor-img {
+  object-fit: cover;
+  border-radius: 30px;
+  width: 100%;
+  max-height: 40rem;
+}
+
+.moreabout .sub-title {
+  color: #da001b;
+  font-size: 2em;
+}
+
+.moreabout .sub-buttons {
+  background-color: green;
+}
+
+.moreabout .ma-icon {
+  display: inline-block;
+}
+
+.moreabout .ma-button-text {
+  display: inline-block;
 }
 
 .features {
