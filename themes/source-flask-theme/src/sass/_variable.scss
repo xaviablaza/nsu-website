@@ -2,8 +2,11 @@ $secondary-color: #da001b;
 $subtitle-color : #8e9092;
 $text-dark: #1b1c16;
 $text-light: #95989a;
-$btn-light: #607d9d;
-$btn-dark: #95989a;
-@mixin font-open {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+$btn-light: #317dce;
+$btn-dark: #155599;
+@mixin font-lato {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+@mixin font-opensans{
+  font-family: "Open Sans", sans-serif;
 }

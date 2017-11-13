@@ -53,7 +53,7 @@
   }
 
   .call-to-action-block{
-    @include font-open;
+    @include font-opensans;
     margin: 0 auto;
     @media (max-width: 991px) {
         margin: 2.5%;

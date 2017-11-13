@@ -1,7 +1,7 @@
 #testimonials{
   .testimonial{
     padding-top: 2rem;
-    @include font-open;
+    @include font-opensans;
     color: $secondary-color;
     font-size: 1.8rem;
     padding: 1rem 3rem;
