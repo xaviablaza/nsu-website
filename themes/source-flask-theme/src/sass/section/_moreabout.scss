@@ -38,8 +38,18 @@
     margin-top: 2em;
   }
 
-  .li {
+  .cf-btn-primary {
+    background-color: $btn-dark;
+    border-color: $btn-dark;
+
+
+    &:hover,
+    &:active{
+      background-color: $btn-light;
+      border-color: $btn-light;
+    }
 
   }
+
 }
 
