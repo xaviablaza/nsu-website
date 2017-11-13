@@ -35,14 +35,14 @@ $btn-hover: #f3f3f3;
   @include font-open;
   display: inline-block;
   font-weight: 400;
-  font-size: 5em;
+  font-size: 4em;
   padding: 0em 1em 0em 1em;
   color: $secondary-color;
   border-radius: 30px;
   transition: all 0.2s ease-out;
   text-decoration: none;
   border: 2px solid transparent;
-  position: relative;
+  line-height: 1;
 
   &:hover,
   &:active{
@@ -54,9 +54,14 @@ $btn-hover: #f3f3f3;
 
 }
 
-.cf-btn-secondary:before {
-  width: 1em;
-  float: left;
-  content: url("/icons/torii.svg");
+.cf-btn-icon {
+  display: inline-block;
+  width: 3em;
+}
+
+.cf-btn-text {
+  display: inline-block;
+  vertical-align: middle;
+
 }
 
