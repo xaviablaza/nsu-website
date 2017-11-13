@@ -3,18 +3,18 @@
   padding-top: 5em;
   padding-bottom: 5em;
 
-	@include media-breakpoint-down(sm) {
-		padding-left: 0.5rem;
-		padding-right: 0.5rem;
-	}
+  @include media-breakpoint-down(sm) {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+  }
 
-    .buttons-gap {
-      margin-right: 10px;
-    }
+  .buttons-gap {
+    margin-right: 10px;
+  }
 
-    .reflow-gap {
-      margin-bottom: 4rem;
-    }
+  .reflow-gap {
+    margin-bottom: 4rem;
+  }
 
   .flavor-img {
     object-fit: cover;
@@ -29,6 +29,8 @@
   }
 
   .sub-buttons {
+    padding: 5em 0em 4em 2em;
+    margin-right: 0.1em;
   }
 
 }

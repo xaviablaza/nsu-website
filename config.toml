@@ -66,7 +66,8 @@ paginate = 10
     member_button = "AS A MEMBER"
     sponser_button = "AS A SPONSER"
 
-    item1 = "Cultural Immersion"
+    item1Top = "Cultural"
+    item1Bottom = "Immersion"
     text1 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
      condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
      congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
@@ -74,20 +75,22 @@ paginate = 10
     thumbnail1 = "icons/torii.svg"
     img1 = "img/main-placeholder-1.jpg"
 
-    item2 = "Diverse Friends"
+    item2Top = "Diverse"
+    item2Bottom =  "Friends"
     text2 =  """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
      condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
      congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
      aliquam sapien, a pulvinar orci."""
-    thumbnail2 = "img/dummy.jpg"
+    thumbnail2 = "icons/geishaninja-01.svg"
     img2 = "img/main-placeholder-1.jpg"
 
-    item3 = "Ramen"
+    item3Top = "Ramen"
+    item3Bottom = ""
     text3 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
      condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
      congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
      aliquam sapien, a pulvinar orci."""
-    thumbnail3 = "img/dummy.jpg"
+    thumbnail3 = "icons/noodles.svg"
     img3 = "img/main-placeholder-1.jpg"
 
 [params.call_to_action]
