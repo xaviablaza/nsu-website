@@ -32,11 +32,11 @@ $btn-hover: #f3f3f3;
 }
 
 .cf-btn-secondary {
-  @include font-open;
+  font-family: Signika, Helvetica, Arial, sans-serif;
   display: inline-block;
   font-weight: 400;
-  font-size: 4em;
-  padding: 0em 1em 0em 1em;
+  font-size: 3.5em;
+  padding: 0.2em 1em 0.1em 1em;
   color: $secondary-color;
   border-radius: 30px;
   transition: all 0.2s ease-out;
@@ -46,7 +46,6 @@ $btn-hover: #f3f3f3;
 
   &:hover,
   &:active{
-    @include font-open;
     border-color: $secondary-color;
     text-decoration: none;
     color: $secondary-color;
