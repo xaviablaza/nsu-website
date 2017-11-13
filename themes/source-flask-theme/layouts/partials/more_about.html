@@ -18,13 +18,25 @@
                     <div class="row sub-buttons">
                         <a class="cf-btn-secondary col" href="{{ .Site.Params.morea_about.member_button }}">
                             <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail1 }}">
-                            <div class="cf-btn-text col-md-8'" > Cultural <br> Immersion</div></a>
+                            <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item1Top }} <br> {{ .Site.Params.morea_about.item1Bottom }} </div></a>
+                    </div>
+
+                    <div class="row sub-buttons">
+                        <a class="cf-btn-secondary col" href="{{ .Site.Params.morea_about.member_button }}">
+                            <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail2 }}">
+                            <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item2Top }} <br> {{ .Site.Params.morea_about.item2Bottom }} </div></a>
+                    </div>
+
+                    <div class="row sub-buttons">
+                        <a class="cf-btn-secondary col" href="{{ .Site.Params.morea_about.member_button }}">
+                            <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail3 }}">
+                            <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item3Top }} <br> {{ .Site.Params.morea_about.item3Bottom }} </div></a>
                     </div>
             </div>
 
             <div class="col-lg-6" >
                 <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
-                <h2 class="section-title">{{ .Site.Params.morea_about.item1 }} </h2>
+                <h2 class="section-title">{{ .Site.Params.morea_about.item1Top }} {{ .Site.Params.morea_about.item1Bottom}} </h2>
                 <div class="sub-title">{{ .Site.Params.morea_about.text1 }}</div>
             </div>
         </div>
