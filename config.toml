@@ -1,4 +1,4 @@
-baseurl = "https://captain-exchange-57048.netlify.com/"   
+baseurl = "https://captain-exchange-57048.netlify.com/"
 title = "AP Statistics Poster Competition"
 theme = "source-flask-theme"
 languageCode = "en-us"
@@ -73,6 +73,10 @@ paginate = 10
           <strong>present an informational poster</strong> about their study.
           Teams who place <strong>win up to $100.</strong></p>"""
     img = "img/about.jpg"
+    
+[params.events]
+        enable=true
+        title = "Upcoming Events"
 
 [params.call_to_action]
     enable = true

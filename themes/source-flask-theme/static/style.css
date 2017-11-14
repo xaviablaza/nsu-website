@@ -1,4 +1,4 @@
-/*!
+@import url(https://fonts.googleapis.com/css?family=Signika);@import url(https://fonts.googleapis.com/css?family=Open+Sans);/*!
  * Bootstrap v4.0.0-beta (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
@@ -10340,4 +10340,86 @@ section.background-white {
   -ms-transform: scale(1.1, 1.1);
   -o-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
+}
+
+#events {
+  color: #da001b;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+#events .event-container h1 {
+  font-family: inherit;
+  padding-left: 13%;
+  width: 100%;
+  font-size: 6rem;
+  color: inherit;
+}
+
+#events .event-container .events-wrapper {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-flow: wrap;
+  flex-wrap: wrap;
+  -ms-flex-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -ms-flex-align: stretch;
+  -webkit-align-content: stretch;
+  align-content: stretch;
+}
+
+#events .event-container .events-wrapper .event-item {
+  margin: 15px 15px 15px 15px;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 5.5px;
+  max-width: 350px;
+  align-content: center;
+}
+
+#events .event-container .events-wrapper .event-item img {
+  width: 100%;
+}
+
+#events .event-container .events-wrapper .event-item .event-text {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#events .event-container .events-wrapper .event-item .event-text h3 {
+  font-family: inherit;
+  color: inherit;
+  margin: auto;
+  font-size: 2rem;
+}
+
+#events .event-container .events-wrapper .event-item .event-text h2 {
+  font-family: inherit;
+  color: inherit;
+  margin: auto;
+  font-size: 4rem;
+}
+
+#events .event-container .events-wrapper .event-item .event-text p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 2.3rem;
+}
+
+#events .event-container .events-wrapper .event-item .event-link {
+  width: 100%;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 2.7rem;
+}
+
+#events .event-container .events-wrapper .event-item .event-link a {
+  font-weight: bold;
+  color: inherit;
 }
