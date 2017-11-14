@@ -64,7 +64,7 @@ paginate = 10
     enable = true
     title = "Why come to us"
     member_button = "AS A MEMBER"
-    sponser_button = "AS A SPONSER"
+    sponsor_button = "AS A SPONSER"
 
     item1Top = "Cultural"
     item1Bottom = "Immersion"
