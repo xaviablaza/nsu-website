@@ -43,7 +43,7 @@
     border-color: $btn-dark;
 
     &:hover,
-    &:active{
+    &:focus {
       background-color: $btn-light;
       border-color: $btn-light;
     }
