@@ -93,6 +93,7 @@ paginate = 10
     thumbnail3 = "icons/noodles.svg"
     img3 = "img/main-placeholder-1.jpg"
 
+
 [params.call_to_action]
     enable = true
     main_tag = "Registration is ongoing!"
