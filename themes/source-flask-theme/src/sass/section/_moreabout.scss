@@ -29,7 +29,7 @@
   }
 
   .sub-buttons {
-    padding: 5em 0em 4em 2em;
+    padding: 5em 0em 1em 2em;
     margin-right: 0.1em;
 
   }
@@ -42,9 +42,8 @@
     background-color: $btn-dark;
     border-color: $btn-dark;
 
-
     &:hover,
-    &:active{
+    &:focus {
       background-color: $btn-light;
       border-color: $btn-light;
     }

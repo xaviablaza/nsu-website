@@ -1,74 +1,130 @@
-
 {{ if isset .Site.Params "morea_about" }}
 {{ if .Site.Params.morea_about.enable }}
 
 <section class="bar bg-img" id="more-about">
-    <div class="moreabout container ">
+    <div class="moreabout container">
 
-        <div class="row">
+        <h1 class="section-title">{{ .Site.Params.morea_about.title }}</h1>
 
-            <div class="col-lg-6 reflow-gap" >
-                <h1 class="section-title">{{ .Site.Params.morea_about.title }}</h1>
+        <ul class="nav nav-pills">
+            <li class="active"><a class="cf-btn-primary buttons-gap active" data-toggle="pill" href="#member">{{ .Site.Params.morea_about.member_button }}</a></li>
+            <li><a class="cf-btn-primary" data-toggle="pill" href="#sponsor">{{ .Site.Params.morea_about.sponsor_button }}</a></li>
+        </ul>
 
-                <div class="buttons-group">
-                    <a class="cf-btn-primary buttons-gap " href="{{ .Site.Params.morea_about.member_button }}">{{ .Site.Params.morea_about.member_button }}</a>
-                    <a class="cf-btn-primary" href="{{ .Site.Params.morea_about.member_button }}">{{ .Site.Params.morea_about.sponser_button }}</a>
 
-                    <ul class="nav nav-pills">
-                        <li class="active">
-                            <div class="row sub-buttons">
-                                <a class="cf-btn-secondary col" data-toggle="pill" href="#itemM1">
-                                    <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail1 }}">
-                                    <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item1Top }} <br> {{ .Site.Params.morea_about.item1Bottom }} </div></a>
+        <div class="tab-content">
 
-                            </div>
-                        </li>
-                        <li>
-                            <div class="row sub-buttons">
-                                <a class="cf-btn-secondary col"  data-toggle="pill" href="#itemM2">
-                                    <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail2 }}">
-                                    <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item2Top }} <br> {{ .Site.Params.morea_about.item2Bottom }} </div></a>
+            <div class="tab-pane active in" id="member">
+                <ul class="nav nav-pills buttons-group">
+                    <li class="active">
+                        <div class="row sub-buttons">
+                            <a class="cf-btn-secondary col" data-toggle="pill" href="#itemM1">
+                                <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail1 }}">
+                                <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item1Top }} <br> {{ .Site.Params.morea_about.item1Bottom }} </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row sub-buttons">
+                            <a class="cf-btn-secondary col"  data-toggle="pill" href="#itemM2">
+                                <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail2 }}">
+                                <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item2Top }} <br> {{ .Site.Params.morea_about.item2Bottom }} </div>
+                            </a>
 
-                            </div>
-                        </li>
-                        <li>
+                        </div>
+                    </li>
+                    <li>
                         <div class="row sub-buttons">
                             <a class="cf-btn-secondary col"  data-toggle="pill" href="#itemM3">
-                            <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail3 }}">
-                                <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item3Top }} <br> {{ .Site.Params.morea_about.item3Bottom }} </div></a>
+                                <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail3 }}">
+                                <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item3Top }} <br> {{ .Site.Params.morea_about.item3Bottom }} </div>
+                            </a>
                         </div>
-                        </li>
-                    </ul>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+
+                    <div class="tab-pane active in" id="itemM1">
+                        <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
+                        <h2 class="section-title">{{ .Site.Params.morea_about.item1Top }} {{ .Site.Params.morea_about.item1Bottom}} </h2>
+                        <div class="sub-title">{{ .Site.Params.morea_about.text1 }}</div>
+                    </div>
+
+                    <div class="tab-pane fade in" id="itemM2">
+                        <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
+                        <h2 class="section-title">{{ .Site.Params.morea_about.item2Top }} {{ .Site.Params.morea_about.item2Bottom}} </h2>
+                        <div class="sub-title">{{ .Site.Params.morea_about.text2 }}</div>
+                    </div>
+
+                    <div class="tab-pane fade in" id="itemM3">
+                        <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
+                        <h2 class="section-title">{{ .Site.Params.morea_about.item3Top }} {{ .Site.Params.morea_about.item3Bottom}} </h2>
+                        <div class="sub-title">{{ .Site.Params.morea_about.text3 }}</div>
+                    </div>
                 </div>
-
             </div>
 
-            <div class="tab-content col-lg-6">
+            <div class="tab-pane fade in " id="sponsor">
+                <ul class="nav nav-pills buttons-group">
+                    <li class="active">
+                        <div class="row sub-buttons">
+                            <a class="cf-btn-secondary col" data-toggle="pill" href="#itemS1">
+                                <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail1 }}">
+                                <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item1Top }} <br> {{ .Site.Params.morea_about.item1Bottom }} </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row sub-buttons">
+                            <a class="cf-btn-secondary col"  data-toggle="pill" href="#itemS2">
+                                <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail2 }}">
+                                <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item2Top }} <br> {{ .Site.Params.morea_about.item2Bottom }} </div>
+                            </a>
 
-            <div class="tab-pane active in" id="itemM1">
-                <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
-                <h2 class="section-title">{{ .Site.Params.morea_about.item1Top }} {{ .Site.Params.morea_about.item1Bottom}} </h2>
-                <div class="sub-title">{{ .Site.Params.morea_about.text1 }}</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row sub-buttons">
+                            <a class="cf-btn-secondary col"  data-toggle="pill" href="#itemS3">
+                                <img class="cf-btn-icon col-md-4" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.thumbnail3 }}">
+                                <div class="cf-btn-text col-md-8'" > {{ .Site.Params.morea_about.item3Top }} <br> {{ .Site.Params.morea_about.item3Bottom }} </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+
+                    <div class="tab-pane active in" id="itemS1">
+                        <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
+                        <h2 class="section-title">{{ .Site.Params.morea_about.item1Top }} {{ .Site.Params.morea_about.item1Bottom}} </h2>
+                        <div class="sub-title">{{ .Site.Params.morea_about.text1 }}</div>
+                    </div>
+
+                    <div class="tab-pane fade in" id="itemS2">
+                        <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
+                        <h2 class="section-title">{{ .Site.Params.morea_about.item2Top }} {{ .Site.Params.morea_about.item2Bottom}} </h2>
+                        <div class="sub-title">{{ .Site.Params.morea_about.text2 }}</div>
+                    </div>
+
+                    <div class="tab-pane fade in" id="itemS3">
+                        <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
+                        <h2 class="section-title">{{ .Site.Params.morea_about.item3Top }} {{ .Site.Params.morea_about.item3Bottom}} </h2>
+                        <div class="sub-title">{{ .Site.Params.morea_about.text3 }}</div>
+                    </div>
+                </div>
             </div>
 
-            <div class="tab-pane fade in" id="itemM2">
-                <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
-                <h2 class="section-title">{{ .Site.Params.morea_about.item2Top }} {{ .Site.Params.morea_about.item2Bottom}} </h2>
-                <div class="sub-title">{{ .Site.Params.morea_about.text2 }}</div>
-            </div>
 
-            <div class="tab-pane fade in" id="itemM3">
-                <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.img1 }}">
-                <h2 class="section-title">{{ .Site.Params.morea_about.item3Top }} {{ .Site.Params.morea_about.item3Bottom}} </h2>
-                <div class="sub-title">{{ .Site.Params.morea_about.text3 }}</div>
-            </div>
-            </div>
+
+
+
+
         </div>
-    </div>
-
-
 
     </div>
+
 </section>
 {{end}}
 {{end}}
