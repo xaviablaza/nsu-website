@@ -10349,7 +10349,15 @@ section.background-white {
   padding-bottom: 130px;
 }
 
+#events h1 {
+  margin: 15px 15px 0 15px;
+  font-family: inherit;
+  font-size: 6rem;
+  color: inherit;
+}
+
 #events .event-item {
+  margin-top: 15px;
   overflow: hidden;
   border-style: solid;
   border-radius: 30px;
@@ -10398,26 +10406,4 @@ section.background-white {
 #events .event-item .event-link a {
   font-weight: bold;
   color: inherit;
-}
-
-#events .title-asdf {
-  margin: 15px 15px 0 15px;
-  font-family: inherit;
-  font-size: 6rem;
-  color: inherit;
-}
-
-#events .event-container .events-wrapper {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-flow: wrap;
-  flex-wrap: wrap;
-  -ms-flex-content: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -ms-flex-align: stretch;
-  -webkit-align-content: stretch;
-  align-content: stretch;
 }

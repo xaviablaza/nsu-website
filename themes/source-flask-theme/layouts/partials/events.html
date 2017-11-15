@@ -1,16 +1,16 @@
 {{ if isset .Site.Params "events" }}
 {{ if .Site.Params.events.enable }}
-<div id="events">
+<section id="events">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="title-asdf">{{.Site.Params.events.Title}}</h1>
+                <h1 class="upcoming-events">{{.Site.Params.events.Title}}</h1>
             </div>
         </div>
         <div class="row">
             {{ $baseUrl := .Site.BaseURL }}
             {{ range (where .Site.RegularPages "Section" "==" "events") }}
-            <div class="col-xl-4 col-lg-6 col-sm-12 ">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                 <div class="event-item">
                     <img src="{{ $baseUrl }}img/{{ .Params.event_image }}" alt="Old Man Cooking">
                     <div class="event-text">
@@ -24,11 +24,10 @@
                         <a href="#" class="click-for-more">click for more</a>
                     </div>
                 </div>
-
             </div>
             {{ end }}
         </div>
     </div>
-</div>
+</section>
 {{ end }}
 {{ end }}
