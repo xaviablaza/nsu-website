@@ -4,16 +4,75 @@
   padding-top: 130px;
   padding-bottom: 130px;
 
-  .event-container {
-    max-width: 1140px;
-    margin: 0 auto;
+  .event-item {
+    //margin: 15px 15px 15px 15px;
+    //padding: 0;
+    overflow: hidden;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5.5px;
+    //max-width: 350px;
+    align-content: center;
 
-    h1 {
-      margin: 15px 15px 0 15px;
-      font-family: inherit;
-      font-size: 6rem;
-      color: inherit;
+    img {
+      width: 100%;
+      padding: 0;
     }
+
+    .event-text {
+      margin-top: 25px;
+      margin-left: 25px;
+      margin-right: 25px;
+
+      h3 {
+        font-family: inherit;
+        color: inherit;
+        margin: auto;
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-family: inherit;
+        color: inherit;
+        margin: auto;
+        font-size: 4rem;
+      }
+
+      p {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 2.3rem;
+      }
+
+    }
+
+    .event-link {
+      width: 100%;
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 2.7rem;
+
+      a {
+        font-weight: bold;
+        color: inherit;
+      }
+
+    }
+
+  }
+
+  .title-asdf {
+    margin: 15px 15px 0 15px;
+    font-family: inherit;
+    font-size: 6rem;
+    color: inherit;
+  }
+
+  .event-container {
+    //max-width: 1140px;
+    //margin: 0 auto;
+    //margin-left: 1rem;
+    //margin-right: 1rem;
 
     .events-wrapper {
       display: -ms-flexbox;
@@ -31,61 +90,6 @@
       -ms-flex-align: stretch;
       -webkit-align-content: stretch;
       align-content: stretch;
-
-      .event-item {
-        margin: 15px 15px 15px 15px;
-        overflow: hidden;
-        border-style: solid;
-        border-radius: 30px;
-        border-width: 5.5px;
-        max-width: 350px;
-        align-content: center;
-
-        img {
-          width: 100%;
-        }
-
-        .event-text {
-          margin-top: 25px;
-          margin-left: 25px;
-          margin-right: 25px;
-
-          h3 {
-            font-family: inherit;
-            color: inherit;
-            margin: auto;
-            font-size: 2rem;
-          }
-
-          h2 {
-            font-family: inherit;
-            color: inherit;
-            margin: auto;
-            font-size: 4rem;
-          }
-
-          p {
-            margin-top: 25px;
-            margin-bottom: 25px;
-            font-size: 2.3rem;
-          }
-
-        }
-
-        .event-link {
-          width: 100%;
-          margin-bottom: 25px;
-          text-align: center;
-          font-size: 2.7rem;
-
-          a {
-            font-weight: bold;
-            color: inherit;
-          }
-
-        }
-        
-      }
     }
   }
 }
