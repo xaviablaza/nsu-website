@@ -1,31 +1,27 @@
 {{ if isset .Site.Params "events" }}
 {{ if .Site.Params.events.enable }}
-
 <section id="events">
-  <div class="event-container">
-            <h1> {{.Site.Params.events.Title}}</h1>
-    <div class="events-wrapper">
-
+    <div class="event-container">
+        <h1>{{.Site.Params.events.Title}}</h1>
+        <div class="events-wrapper">
             {{ $baseUrl := .Site.BaseURL }}
             {{ range (where .Site.RegularPages "Section" "==" "events") }}
             <div class="event-item">
                 <img src="{{ $baseUrl }}img/{{ .Params.event_image }}" alt="Old Man Cooking">
                 <div class="event-text">
-                <h3>{{ .Params.event_japanese_title }}</h3>
-                <h2>{{ .Params.event_title }}</h2>
-                <h3>{{ .Params.event_time }}</h3>
-                <h3>{{ .Params.event_address }}</h3>
-                <p>{{ .Params.event_description }}</p>
+                    <h3>{{ .Params.event_japanese_title }}</h3>
+                    <h2>{{ .Params.event_title }}</h2>
+                    <h3>{{ .Params.event_time }}</h3>
+                    <h3>{{ .Params.event_address }}</h3>
+                    <p>{{ .Params.event_description }}</p>
                 </div>
                 <div class="event-link">
-                  <a href=# class="click-for-more">click for more</a>
+                    <a href="#" class="click-for-more">click for more</a>
                 </div>
-
             </div>
             {{ end }}
         </div>
-  </div>
+    </div>
 </section>
-
-{{end}}
-{{end}}
+{{ end }}
+{{ end }}
