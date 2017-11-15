@@ -1,0 +1,33 @@
+{{ if isset .Site.Params "events" }}
+{{ if .Site.Params.events.enable }}
+<section id="events">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="upcoming-events">{{.Site.Params.events.Title}}</h1>
+            </div>
+        </div>
+        <div class="row">
+            {{ $baseUrl := .Site.BaseURL }}
+            {{ range (where .Site.RegularPages "Section" "==" "events") }}
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="event-item">
+                    <img src="{{ $baseUrl }}img/{{ .Params.event_image }}" alt="Old Man Cooking">
+                    <div class="event-text">
+                        <h3>{{ .Params.event_japanese_title }}</h3>
+                        <h2>{{ .Params.event_title }}</h2>
+                        <h3>{{ .Params.event_time }}</h3>
+                        <h3>{{ .Params.event_address }}</h3>
+                        <p>{{ .Params.event_description }}</p>
+                    </div>
+                    <div class="event-link">
+                        <a href="#" class="click-for-more">click for more</a>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

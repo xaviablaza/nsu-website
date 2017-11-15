@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 baseURL = ""
+=======
+baseurl = "https://captain-exchange-57048.netlify.com/"
+title = "AP Statistics Poster Competition"
+theme = "source-flask-theme"
+>>>>>>> flexbox-changes
 languageCode = "en-us"
 title = "Nikkei Student Union"
 theme = "hugo-nsu-theme"
@@ -52,6 +58,7 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 
 [params.hero]
     enable = true
+<<<<<<< HEAD
     hero = "img/hero.jpg"
     #title = "Nikkei Student Union"
     #subtitle = "Chapman University"
@@ -89,6 +96,23 @@ googleAnalytics = "UA-XXXXXXXX-Y"
     enable = true
     title = "Upcoming Events"
     subtitle = "Selected Works"
+=======
+    title = "More About The Event"
+    text = """The Southern Californian Chapters of the American Statistical Association organized
+          the AP Statistics Poster Competition as <strong>an avenue for aspiring statisticians</strong>
+          from high school to shine with data-driven discovery through statistics.
+
+          <br><br>
+
+          <strong>60 teams will be chosen</strong> from those who apply and will be asked to
+          <strong>present an informational poster</strong> about their study.
+          Teams who place <strong>win up to $100.</strong></p>"""
+    img = "img/about.jpg"
+    
+[params.events]
+        enable=true
+        title = "Upcoming Events"
+>>>>>>> flexbox-changes
 
 [params.newsletter]
     enable = true

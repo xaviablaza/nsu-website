@@ -8,8 +8,7 @@
 @import url('https://fonts.googleapis.com/css?family=Signika');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-
-//Base
+// Base
 @import "base";
 @import "navbar";
 @import "footer";
@@ -26,3 +25,6 @@
 
 // Platform
 @import "section/platform";
+
+// Events
+@import "section/events";
