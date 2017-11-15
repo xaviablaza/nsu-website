@@ -10400,3 +10400,69 @@ section.background-white {
   -o-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
 }
+
+#events {
+  color: #da001b;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+#events h1 {
+  margin: 15px 15px 0 15px;
+  font-family: inherit;
+  font-size: 6rem;
+  color: inherit;
+}
+
+#events .event-item {
+  margin-top: 15px;
+  overflow: hidden;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 5.5px;
+  align-content: center;
+}
+
+#events .event-item img {
+  width: 100%;
+  padding: 0;
+}
+
+#events .event-item .event-text {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#events .event-item .event-text h3 {
+  font-family: inherit;
+  color: inherit;
+  margin: auto;
+  font-size: 2rem;
+}
+
+#events .event-item .event-text h2 {
+  font-family: inherit;
+  color: inherit;
+  margin: auto;
+  font-size: 4rem;
+}
+
+#events .event-item .event-text p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 2.3rem;
+}
+
+#events .event-item .event-link {
+  width: 100%;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 2.7rem;
+}
+
+#events .event-item .event-link a {
+  font-weight: bold;
+  color: inherit;
+}

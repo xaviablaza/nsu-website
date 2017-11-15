@@ -93,9 +93,12 @@ paginate = 10
     thumbnail3 = "icons/noodles.svg"
     img3 = "img/main-placeholder-1.jpg"
 
+[params.events]
+    enable = true
+    title = "Upcoming Events"
 
 [params.call_to_action]
-    enable = true
+    enable = false
     main_tag = "Registration is ongoing!"
     sub_title = """Have any questions?<br>Get in touch with Dr. Criselda Toto:"""
     phone_number = "(714) 997-6782"
