@@ -10349,10 +10349,14 @@ section.background-white {
   padding-bottom: 130px;
 }
 
+#events .event-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 #events .event-container h1 {
+  margin: 15px 15px 0 15px;
   font-family: inherit;
-  padding-left: 13%;
-  width: 100%;
   font-size: 6rem;
   color: inherit;
 }
