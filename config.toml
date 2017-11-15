@@ -1,4 +1,4 @@
-baseurl = "https://captain-exchange-57048.netlify.com/"
+baseurl = "https://band-master-howls-81162.netlify.com/"   
 title = "AP Statistics Poster Competition"
 theme = "source-flask-theme"
 languageCode = "en-us"
@@ -62,24 +62,43 @@ paginate = 10
 
 [params.morea_about]
     enable = true
-    title = "More About The Event"
-    text = """The Southern Californian Chapters of the American Statistical Association organized
-          the AP Statistics Poster Competition as <strong>an avenue for aspiring statisticians</strong>
-          from high school to shine with data-driven discovery through statistics.
+    title = "Why come to us"
+    member_button = "AS A MEMBER"
+    sponsor_button = "AS A SPONSER"
 
-          <br><br>
+    item1Top = "Cultural"
+    item1Bottom = "Immersion"
+    text1 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail1 = "icons/torii.svg"
+    img1 = "img/main-placeholder-1.jpg"
 
-          <strong>60 teams will be chosen</strong> from those who apply and will be asked to
-          <strong>present an informational poster</strong> about their study.
-          Teams who place <strong>win up to $100.</strong></p>"""
-    img = "img/about.jpg"
-    
+    item2Top = "Diverse"
+    item2Bottom =  "Friends"
+    text2 =  """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail2 = "icons/geishaninja-01.svg"
+    img2 = "img/main-placeholder-1.jpg"
+
+    item3Top = "Ramen"
+    item3Bottom = ""
+    text3 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail3 = "icons/noodles.svg"
+    img3 = "img/main-placeholder-1.jpg"
+
 [params.events]
-        enable=true
-        title = "Upcoming Events"
+    enable = true
+    title = "Upcoming Events"
 
 [params.call_to_action]
-    enable = true
+    enable = false
     main_tag = "Registration is ongoing!"
     sub_title = """Have any questions?<br>Get in touch with Dr. Criselda Toto:"""
     phone_number = "(714) 997-6782"

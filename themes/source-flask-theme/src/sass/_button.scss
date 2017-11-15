@@ -1,37 +1,23 @@
-$btn-border-color: #5f5f5f;
-$btn-hover: #f3f3f3;
-
 .cf-btn-primary {
-  @include font-lato;
+  @include font-opensans;
   display: inline-block;
-  @include font-lato;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 5px;
-  padding: 10px 50px 10px 50px;
-  background-color: $btn-light;
+  padding: 1em 2em 1em 2em;
   color: #fff;
-  border: 2px solid $btn-light;
+  border: 2px solid;
   border-radius: 30px;
   transition: all 0.2s ease-out;
   text-decoration: none;
 
   &:hover,
   &:active{
-      @include font-lato;
-      background-color: $btn-dark;
-      border-color: $btn-dark;
-    color: #fff;
+      @include font-opensans;
     text-decoration: none;
+    color: #fff;
   }
 
-  .voting-flag{
-    font-size: 5rem;
-    font-weight: 200;
-    letter-spacing: .5rem;
-    padding: 2rem 0;
-  }
 
   &.cf-btn-sm{
     font-size: 2rem;
@@ -39,5 +25,41 @@ $btn-hover: #f3f3f3;
   }
 }
 
+.buttons-group {
+  display: inline-block;
+}
 
+.cf-btn-secondary {
+  @include font-opensans;
+  display: inline-block;
+  font-weight: 800;
+  font-size: 3.5em;
+  padding: 0.3em 2em 0.3em 0.5em;
+  color: $secondary-color;
+  border-radius: 30px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  border: 2px solid transparent;
+  line-height: 1;
+
+  &:hover,
+  &:focus {
+    @include font-opensans;
+    border-color: $secondary-color;
+    text-decoration: none;
+    color: $secondary-color;
+  }
+
+}
+
+.cf-btn-icon {
+  display: inline-block;
+  width: 3em;
+}
+
+.cf-btn-text {
+  margin-left: 1em ;
+  display: inline-block;
+  vertical-align: middle;
+}
 

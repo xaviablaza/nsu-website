@@ -9719,7 +9719,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
   line-height: 1.1;
   color: #333333;
@@ -9731,7 +9731,6 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -9773,6 +9772,13 @@ a.text-primary:hover {
 .bg-primary {
   color: #fff;
   background-color: #38a7bb;
+}
+
+.bg-img {
+  background-image: url("/img/wave.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a.bg-primary:hover {
@@ -9817,17 +9823,21 @@ address {
 }
 
 #header {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   transition: all .5s ease 0s;
   top: 0;
-  border: solid;
+  /*
+  &.nav-hidden{
+    top: -200px;
+  }
+  */
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
   border-width: 1px;
   border-color: #e4e4e4;
-  background: white;
-}
-
-#header.nav-hidden {
-  top: -200px;
+  background: indianred;
 }
 
 #header .navbar-brand > h1 {
@@ -9841,6 +9851,7 @@ address {
 
 #header .navbar-brand > h1 > span {
   font-size: 2.5rem;
+  color: white;
   font-weight: 700;
   letter-spacing: 0.2rem;
 }
@@ -9860,7 +9871,7 @@ address {
 #header .nav-countdown {
   font-size: 2.7rem;
   font-weight: 400;
-  color: #1b1c16;
+  color: white;
   padding-right: 0.5rem;
 }
 
@@ -9874,26 +9885,29 @@ address {
   }
 }
 
-#header .vote-btn a {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+#header .nav-link .links {
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
   padding: 10px 50px 10px 50px;
   background-color: transparent;
-  color: #1b1c16;
-  border: 2px solid #1b1c16;
-  border-radius: 30px;
+  color: white;
   transition: all 0.2s ease-out;
   text-decoration: none;
 }
 
-#header .vote-btn a:hover,
-#header .vote-btn a:active {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  background-color: #317dce;
-  border-color: #317dce;
-  color: #fff;
+#header .nav-link .join-us {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: indianred;
+  letter-spacing: 1px;
+  padding: 10px 50px 10px 50px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: white;
 }
 
 #footer {
@@ -9905,6 +9919,7 @@ address {
   line-height: 1.5rem;
   font-size: 3rem;
   padding-bottom: 2rem;
+  color: white;
 }
 
 #footer .vote-for > span {
@@ -9932,17 +9947,14 @@ address {
 }
 
 .cf-btn-primary {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: inline-block;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
-  letter-spacing: 5px;
-  padding: 10px 50px 10px 50px;
-  background-color: #317dce;
+  padding: 1em 2em 1em 2em;
   color: #fff;
-  border: 2px solid #317dce;
+  border: 2px solid;
   border-radius: 30px;
   transition: all 0.2s ease-out;
   text-decoration: none;
@@ -9950,18 +9962,9 @@ address {
 
 .cf-btn-primary:hover,
 .cf-btn-primary:active {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  background-color: #155599;
-  border-color: #155599;
-  color: #fff;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
-}
-
-.cf-btn-primary .voting-flag {
-  font-size: 5rem;
-  font-weight: 200;
-  letter-spacing: .5rem;
-  padding: 2rem 0;
+  color: #fff;
 }
 
 .cf-btn-primary.cf-btn-sm {
@@ -9969,8 +9972,41 @@ address {
   padding: .2rem 3rem;
 }
 
-#title-card {
-  padding-bottom: 3rem;
+.buttons-group {
+  display: inline-block;
+}
+
+.cf-btn-secondary {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  font-weight: 800;
+  font-size: 3.5em;
+  padding: 0.3em 2em 0.3em 0.5em;
+  color: #da001b;
+  border-radius: 30px;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  border: 2px solid transparent;
+  line-height: 1;
+}
+
+.cf-btn-secondary:hover,
+.cf-btn-secondary:focus {
+  font-family: "Open Sans", sans-serif;
+  border-color: #da001b;
+  text-decoration: none;
+  color: #da001b;
+}
+
+.cf-btn-icon {
+  display: inline-block;
+  width: 3em;
+}
+
+.cf-btn-text {
+  margin-left: 1em;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 @media screen and (min-height: 1000px) {
@@ -10030,7 +10066,7 @@ address {
 }
 
 #title-card .call-to-action-block {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0 auto;
   position: relative;
 }
@@ -10107,14 +10143,21 @@ section {
   padding: 0 0.4rem;
 }
 
+section h1.section-title,
+section h2.section-title {
+  color: #da001b;
+  font-family: Signika, Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+
 section h1.section-title {
-  color: #403d33;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
   padding: 2rem 0;
-  font-size: 3.2rem;
-  text-transform: uppercase;
-  letter-spacing: 15px;
-  font-weight: 400;
+  font-size: 6rem;
+}
+
+section h2.section-title {
+  padding: 4rem 0 0 0;
+  font-size: 5rem;
 }
 
 section .no-gutters {
@@ -10132,8 +10175,8 @@ section.background-white {
 
 #testimonials .testimonial {
   padding-top: 2rem;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  color: #403d33;
+  font-family: "Open Sans", sans-serif;
+  color: #da001b;
   font-size: 1.8rem;
   padding: 1rem 3rem;
   text-align: center;
@@ -10145,7 +10188,7 @@ section.background-white {
 }
 
 #call-to-action {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -10154,7 +10197,7 @@ section.background-white {
   padding-top: 4rem;
 }
 
-#call-to-action .vote-btn {
+#call-to-action .nav-link {
   margin: auto !important;
 }
 
@@ -10192,44 +10235,60 @@ section.background-white {
 }
 
 .moreabout {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  /*may need to be made more responcive*/
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 @media (max-width: 767px) {
   .moreabout {
-    margin-top: 5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
 }
 
-.moreabout .tagline {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 2rem;
-  line-height: 2.14;
-  margin-bottom: 20px;
-  margin-top: 15px;
+.moreabout .buttons-gap {
+  margin-right: 10px;
 }
 
-@media (min-width: 991px) {
-  .moreabout .tagline {
-    margin-top: -15px;
-  }
+.moreabout .reflow-gap {
+  margin-bottom: 4rem;
 }
 
-.moreabout .accolade {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  padding-left: 1.2rem;
-  margin-top: 2.6rem;
-  margin-bottom: 2.6rem;
-  font-size: 1.9rem;
-  border-left: 1px solid #95989a;
-  line-height: 2.5;
+.moreabout .flavor-img {
+  object-fit: cover;
+  border-radius: 30px;
+  width: 100%;
+  max-height: 40rem;
+}
+
+.moreabout .sub-title {
+  color: #da001b;
+  font-size: 2em;
+}
+
+.moreabout .sub-buttons {
+  padding: 5em 0em 1em 2em;
+  margin-right: 0.1em;
+}
+
+.moreabout .tab-content {
+  margin-top: 2em;
+}
+
+.moreabout .cf-btn-primary {
+  background-color: #8e9092;
+  border-color: #8e9092;
+}
+
+.moreabout .cf-btn-primary:hover,
+.moreabout .cf-btn-primary:focus {
+  background-color: #607d9d;
+  border-color: #607d9d;
 }
 
 .features {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   /* Icon Animation and Text Formatting */
 }
 

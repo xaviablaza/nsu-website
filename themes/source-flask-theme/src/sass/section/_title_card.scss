@@ -20,7 +20,6 @@
     margin-bottom: 47px;
   }
 
-  padding-bottom: 3rem;
   @include media-breakpoint-up(md) {
     padding-bottom: 0;
   }
@@ -54,7 +53,7 @@
   }
 
   .call-to-action-block{
-    @include font-lato;
+    @include font-opensans;
     margin: 0 auto;
     @media (max-width: 991px) {
         margin: 2.5%;
