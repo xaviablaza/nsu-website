@@ -9953,9 +9953,8 @@ address {
   font-weight: 400;
   font-size: 16px;
   padding: 1em 2em 1em 2em;
-  background-color: #607d9d;
   color: #fff;
-  border: 2px solid #317dce;
+  border: 2px solid;
   border-radius: 30px;
   transition: all 0.2s ease-out;
   text-decoration: none;
@@ -9964,10 +9963,8 @@ address {
 .cf-btn-primary:hover,
 .cf-btn-primary:active {
   font-family: "Open Sans", sans-serif;
-  background-color: #155599;
-  border-color: #155599;
-  color: #fff;
   text-decoration: none;
+  color: #fff;
 }
 
 .cf-btn-primary.cf-btn-sm {
@@ -9975,25 +9972,41 @@ address {
   padding: .2rem 3rem;
 }
 
+.buttons-group {
+  display: inline-block;
+}
+
 .cf-btn-secondary {
   font-family: "Open Sans", sans-serif;
   display: inline-block;
-  font-weight: 400;
-  font-size: 5em;
-  padding: 0em 1em 0em 1em;
+  font-weight: 800;
+  font-size: 3.5em;
+  padding: 0.3em 2em 0.3em 0.5em;
   color: #da001b;
   border-radius: 30px;
   transition: all 0.2s ease-out;
   text-decoration: none;
   border: 2px solid transparent;
+  line-height: 1;
 }
 
 .cf-btn-secondary:hover,
-.cf-btn-secondary:active {
+.cf-btn-secondary:focus {
   font-family: "Open Sans", sans-serif;
   border-color: #da001b;
   text-decoration: none;
   color: #da001b;
+}
+
+.cf-btn-icon {
+  display: inline-block;
+  width: 3em;
+}
+
+.cf-btn-text {
+  margin-left: 1em;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 @media screen and (min-height: 1000px) {
@@ -10134,7 +10147,7 @@ section h1.section-title,
 section h2.section-title {
   color: #da001b;
   font-family: Signika, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 section h1.section-title {
@@ -10255,15 +10268,23 @@ section.background-white {
 }
 
 .moreabout .sub-buttons {
-  background-color: green;
+  padding: 5em 0em 1em 2em;
+  margin-right: 0.1em;
 }
 
-.moreabout .ma-icon {
-  display: inline-block;
+.moreabout .tab-content {
+  margin-top: 2em;
 }
 
-.moreabout .ma-button-text {
-  display: inline-block;
+.moreabout .cf-btn-primary {
+  background-color: #8e9092;
+  border-color: #8e9092;
+}
+
+.moreabout .cf-btn-primary:hover,
+.moreabout .cf-btn-primary:focus {
+  background-color: #607d9d;
+  border-color: #607d9d;
 }
 
 .features {
