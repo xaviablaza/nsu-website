@@ -9836,8 +9836,8 @@ address {
   border-left-style: solid;
   border-bottom-style: solid;
   border-width: 1px;
-  border-color: #e4e4e4;
-  background: indianred;
+  border-color: #C22246;
+  background: #C22246;
 }
 
 #header .navbar-brand > h1 {
@@ -9862,12 +9862,6 @@ address {
   }
 }
 
-@media (max-width: 991px) {
-  #header .navbar > * {
-    margin: 0 auto;
-  }
-}
-
 #header .nav-countdown {
   font-size: 2.7rem;
   font-weight: 400;
@@ -9885,7 +9879,7 @@ address {
   }
 }
 
-#header .nav-link .links {
+.links {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -9897,11 +9891,11 @@ address {
   text-decoration: none;
 }
 
-#header .nav-link .join-us {
+.join-us {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: indianred;
+  color: #C22246;
   letter-spacing: 1px;
   padding: 10px 50px 10px 50px;
   transition: all 0.2s ease-out;
