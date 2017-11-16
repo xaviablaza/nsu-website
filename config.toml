@@ -66,6 +66,7 @@ paginate = 10
     member_button = "AS A MEMBER"
     sponsor_button = "AS A SPONSOR"
 
+[params.morea_about.member]
     item1Top = "Cultural"
     item1Bottom = "Immersion"
     text1 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
@@ -92,6 +93,35 @@ paginate = 10
      aliquam sapien, a pulvinar orci."""
     thumbnail3 = "icons/noodles.svg"
     img3 = "img/main-placeholder-1.jpg"
+
+[params.morea_about.sponsor]
+    item1Top = "Cultural"
+    item1Bottom = "Support"
+    text1 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail1 = "icons/torii.svg"
+    img1 = "img/main-placeholder-1.jpg"
+
+    item2Top = "Diverse"
+    item2Bottom =  "Branding"
+    text2 =  """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail2 = "icons/geishaninja-01.svg"
+    img2 = "img/main-placeholder-1.jpg"
+
+    item3Top = "Ramune"
+    item3Bottom = ""
+    text3 = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum
+     condimentum magna, sed hendrerit massa auctor in. Quisque eleifend est feugiat arcu
+     congue, vel consequat odio suscipit. Cras scelerisque vel metus nec viverra. Morbi id
+     aliquam sapien, a pulvinar orci."""
+    thumbnail3 = "icons/noodles.svg"
+    img3 = "img/main-placeholder-1.jpg"
+
 
 [params.events]
     enable = true
