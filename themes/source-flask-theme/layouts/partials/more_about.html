@@ -2,19 +2,67 @@
 {{ if .Site.Params.morea_about.enable }}
 
 <section class="bar bg-img" id="more-about">
+    <ul class="nav nav-pills">
+        <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+        <li><a data-toggle="pill" href="#menu1">Menu 1</a></li>
+    </ul>
+
+
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+
+            <ul class="nav nav-pills">
+                <li class="">
+                    <a data-toggle="pill" href="#menu4">Home</a>
+                </li>
+                <li>
+                    <a data-toggle="pill" href="#menu3">Menu 1</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="menu4" class="tab-pane fade in">
+                    woo
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                    waa
+                </div>
+            </div>
+        </div>
+
+        <div id="menu1" class="tab-pane fade">
+
+            <ul class="nav nav-pills">
+                <li class="active"><a data-toggle="pill" href="#menu34">Home</a></li>
+                <li><a data-toggle="pill" href="#menu11">Menu 1</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="menu34" class="tab-pane fade in active">
+                    wee
+                </div>
+                <div id="menu11" class="tab-pane fade">
+                    wqq
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
     <div class="moreabout container">
 
         <h1 class="section-title">{{ .Site.Params.morea_about.title }}</h1>
 
         <ul class="nav nav-pills">
-            <li class="active"><a class="cf-btn-primary buttons-gap active" data-toggle="pill" href="#member">{{ .Site.Params.morea_about.member_button }}</a></li>
+            <li class="active"><a class="cf-btn-primary buttons-gap" data-toggle="pill" href="#member">{{ .Site.Params.morea_about.member_button }}</a></li>
             <li><a class="cf-btn-primary" data-toggle="pill" href="#sponsor">{{ .Site.Params.morea_about.sponsor_button }}</a></li>
         </ul>
 
 
         <div class="tab-content">
 
-            <div class="tab-pane active in" id="member">
+            <div class="tab-pane in" id="member">
                 <div class="row">
                     <div class="col-xl-5 reflow-gap">
                         <ul class="nav nav-pills buttons-group">
@@ -69,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="tab-pane fade in " id="sponsor">
+            <div class="tab-pane fade in" id="sponsor">
                 <div class="row">
                     <div class="col-xl-5 reflow-gap">
                         <ul class="nav nav-pills buttons-group">
@@ -103,7 +151,7 @@
                     <div class="col-xl-7">
                         <div class="tab-content">
 
-                        <div class="tab-pane active in" id="itemS1">
+                        <div class="tab-pane in active" id="itemS1">
                             <img class="flavor-img" src="{{ .Site.BaseURL }}{{ .Site.Params.morea_about.sponsor.img1 }}">
                             <h2 class="section-title">{{ .Site.Params.morea_about.sponsor.item1Top }} {{ .Site.Params.morea_about.sponsor.item1Bottom}} </h2>
                             <div class="sub-title">{{ .Site.Params.morea_about.sponsor.text1 }}</div>
